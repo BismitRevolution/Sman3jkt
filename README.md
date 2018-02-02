@@ -1,15 +1,14 @@
-# Bismit Revolution
+# SMA NEGERI 3 JAKARTA
 
 ### Profile Website
 
 ###### DESCRIPTION 
 
-> *Bismit Revolution* merupakan biro yang bertanggungjawab untuk menunjang segala kegiatan yang dilakukan oleh BEM Fasilkom UI, terutama dalam bidang pendanaan. Biro Bisnis dan Kemitraan, kamu akan ditantang untuk dapat memaksimalkan potensi yang kamu miliki dengan ide bisnis yang kreatif serta inovatif dan tentunya sesuai dengan perkembangan teknologi terkini.
+> *SMA NEGERI 3 JAKARTA* merupakan salah satu sekolah negeri di Jakarta.
 
 ###### PROGRAMMING ENVIRONMENT 
 
 > - Laravel PHP Framework
-> - Foundation v6 by ZURB Foundation 
 > - Bootstrap v4.0.0 beta 
 > - MySQL Database
 
