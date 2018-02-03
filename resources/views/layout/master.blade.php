@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.locale') }}" dir="rtl">
+<html lang="{{ config('app.locale') }}" dir="ltr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -32,7 +32,7 @@
         <!-- Google Open Sans -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
 
-        <title>Title | @yield('title')</title>
+        <title>SMA Negeri 3 Jakarta | @yield('title')</title>
     </head>
     <body>
         @include('layout.header')
@@ -44,18 +44,24 @@
         <script type="application/javascript" src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
         <!-- <script type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
         <!-- PopperJS -->
-        <!-- <script type="application/javascript" src="https://unpkg.com/popper.js"></script> -->
+        <script type="application/javascript" src="https://unpkg.com/popper.js"></script>
         <!-- TooltipJS -->
-        <!-- <script type="application/javascript" src="https://unpkg.com/tooltip.js"></script> -->
+        <script type="application/javascript" src="https://unpkg.com/tooltip.js"></script>
         <!-- Bootstrap -->
-        <!-- <script type="application/javascript" src="{{ asset('js/bootstrap-v4.0.min.js') }}"></script> -->
+        <script type="application/javascript" src="{{ asset('js/bootstrap-v4.0.min.js') }}"></script>
         <!-- Foundation ZURB -->
         <script type="application/javascript" src="{{ asset('js/what-input.js') }}"></script>
-        <script type="application/javascript" src="{{ asset('js/foundation.min.js') }}"></script>
+        <!-- <script type="application/javascript" src="{{ asset('js/foundation.min.js') }}"></script> -->
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/header.js') }}"></script>
         @yield('extra-js')
 
-        @include('layout.footer')
+        <div style="background-color: #303030;">
+            <div class="container">
+                @include('layout.footer')
+            </div>
+        </div>
     </body>
 </html>

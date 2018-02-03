@@ -1,0 +1,93 @@
+#footer {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: white;
+    min-height: 200px;
+}
+
+#footer h5 {
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+#footer p {
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+#footer a, #footer a:hover, #footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.footer-left {
+    background-color: #212121;
+    opacity: 0.9;
+}
+
+.pic {
+    background-image: url('/img/sman3_logo.png');
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.name p, .name a {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+.footer-right {
+    background-color: #303030;
+}
+
+.footer-left > div, .footer-right > div {
+    padding: 20px;
+}
+
+.description p {
+    font-family: "Roboto Medium";
+}
+
+.social-media {
+    font-size: 3em;
+}
+
+.social-media a {
+    padding: 20px;
+}
+
+#copyright {
+    width: 100%;
+}
+
+#copyright .navbar {
+    height: 35px;
+    display: block;
+}
+
+#copyright p, #copyright a, #copyright a:hover, #copyright a:link {
+    text-decoration: none;
+    color: #303030;
+    font-size: 0.8em;
+}
+
+#copyright a {
+    font-weight: bold;
+}
+
+#copyright a:hover {
+    opacity: 0.8;
+}

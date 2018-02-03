@@ -1,0 +1,29 @@
+#header {
+    height: 100px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-light .navbar-brand a {
+    font-family: "DIN 1451";
+    color: var(--color-dark);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-light);
+}
+
+#header ul {
+    margin-top: 40px;
+}
+
+#header li {
+    padding: 10px;
+}
+
+#header li:hover {
+    background-color: var(--color-medium);
+}
