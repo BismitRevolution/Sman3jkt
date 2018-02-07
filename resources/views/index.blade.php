@@ -16,24 +16,24 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block" src="{{ asset('img/home_slide_1.jpg') }}" alt="First slide">
+                <img class="d-block" src="{{ asset('img/photos/landscape_1.jpg') }}" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Kenyamanan No 1</h1>
-                    <p>Kami akan selalu memberikan pelayanan yang terbaik</p>
+                    <h1>Siap berprestasi</h1>
+                    <p>Kami membimbing siswa agar terus berprestasi sesuai potensi yang dimiliki</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block" src="{{ asset('img/home_slide_2.jpg') }}" alt="Second slide">
+                <img class="d-block" src="{{ asset('img/photos/landscape_2.jpg') }}" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Kualitas Terjamin</h1>
-                    <p>Kami memiliki sertifikasi untuk menjamin kualitas pelayanan kami</p>
+                    <h1>Semangat berprestasi</h1>
+                    <p>Siswa-siswa berprestasi dari berbagai bidang lomba</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block" src="{{ asset('img/home_slide_3.jpg') }}" alt="Third slide">
+                <img class="d-block" src="{{ asset('img/photos/landscape_3.jpg') }}" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Pilihan Variasi Mobil</h1>
-                    <p>Pilih tipe mobil yang Anda inginkan</p>
+                    <h1>Semangat lomba dan berkompetisi</h1>
+                    <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p>
                 </div>
             </div>
         </div>
@@ -141,10 +141,10 @@
                         <div class="title col-sm-8">
                             <h5>Sambutan Kepala Sekolah Mengenai Peresmian Launcing Website SMA Negeri 3 Jakarta</h5>
                             <div class="summary">
-                                <p>Ini contoh descripsi pendek</p>
+                                <p>Dengan ini, saya resmikan website SMA Negeri 3 Jakarta yang baru. Diharapkan dengan adanya website ini, dapat dipergunakan sebaik-baiknya.</p>
                             </div>
                         </div>
-                        <div class="img col-sm-4" style="background-image: url('/img/sman3_logo.png')"></div>
+                        <div class="img col-sm-4" style="background-image: url('/img/photos/kepala_sekolah.png'); height: 275px;"></div>
                     </div>
                 </div>
 
