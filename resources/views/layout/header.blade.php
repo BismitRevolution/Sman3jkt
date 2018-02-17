@@ -1,4 +1,4 @@
-<div class="navbar-collection">
+<div class="navbar-collection shadow-bottom">
     <div class="nav-top">
         <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container py-4">

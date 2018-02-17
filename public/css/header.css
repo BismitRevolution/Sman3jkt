@@ -135,3 +135,8 @@ nav a:hover, .dropdown-submenu:hover, .dropdown-item:hover {
     background: var(--color-dark);
     color: white;
 }
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
