@@ -16,6 +16,7 @@
 // });
 
 Route::get('/', 'PageController@index')->name('index');
+Route::get('/profile', 'PageController@getProfile');
 
 Auth::routes();
 
