@@ -12,4 +12,7 @@ class PageController extends Controller
     public function getProfile(){
     	return view('profile');
     }
+    public function getSarana(){
+    	return view('sarana-prasarana');
+    }
 }

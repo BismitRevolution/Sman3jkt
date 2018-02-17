@@ -17,6 +17,7 @@
 
 Route::get('/', 'PageController@index')->name('index');
 Route::get('/profile', 'PageController@getProfile');
+Route::get('/sarana-prasarana', 'PageController@getSarana');
 
 Auth::routes();
 
