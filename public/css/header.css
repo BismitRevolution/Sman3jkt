@@ -10,12 +10,6 @@
     font-size: 0.9rem !important;
 }
 
-.navbar-light .navbar-brand a {
-    font-family: "DIN 1451";
-    margin-left: 20px;
-    margin-top: 5px;
-}
-
 #sticky-nav {
     padding-top: 0;
     padding-bottom: 0;
@@ -31,6 +25,7 @@
 
 #header h5, h4 {
     font-family: "DIN 1451";
+    margin-left: 20px;
 }
 
 #header a {
@@ -56,8 +51,7 @@
 
 .nav-link {
     color: white !important;
-    padding: 15px;
-    margin-right: 13px;
+    padding: 15px 25px 15px 25px !important;
 }
 
 /* Links inside the dropdown */
