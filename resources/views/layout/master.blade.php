@@ -58,7 +58,7 @@
         <script type="application/javascript" src="{{ asset('js/header.js') }}"></script>
         @yield('extra-js')
 
-        <div style="background-color: #0F374F;">
+        <div class="bg-dark">
             <div class="container">
                 @include('layout.footer')
             </div>
