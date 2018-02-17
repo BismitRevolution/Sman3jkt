@@ -50,7 +50,7 @@
 }
 
 .footer-right {
-    background-color: #303030;
+    background-color: white;
 }
 
 .footer-left > div, .footer-right > div {
@@ -90,4 +90,9 @@
 
 #copyright a:hover {
     opacity: 0.8;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
