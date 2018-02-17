@@ -1,6 +1,6 @@
 <div class="navbar-collection">
     <div class="nav-top">
-        <nav id="header" class="navbar navbar-expand-lg navbar-dark">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container py-4">
                 <div class="col-md-1 col-sm-2">
                     <img src="{{ asset('img/logo_transparent.png') }}" width="auto" height="80" class="d-inline-block align-top" alt="logo">
@@ -15,14 +15,13 @@
                     <a href="http://twitter.com" target="_blank">Twitter</a>
                     <span style="color: white" class="mx-3">|</span>
                     <a href="http://instagram.com" target="_blank">Instagram</a>
-
                 </div>
             </div>
-        </nav> 
+        </nav>
     </div>
-    
+
     <div class="nav-down">
-        <nav id="sticky-nav" class="navbar navbar-expand-lg navbar-dark">
+        <nav id="sticky-nav" class="navbar navbar-expand-lg navbar-dark bg-semi-dark">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDashboard" aria-controls="navbarDashboard" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,11 +29,11 @@
                 </button>
                 <!-- Toggleable -->
                 <ul class="navbar-nav">
-                  
+
                   <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                   </li>
-                  
+
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                       Profil
@@ -178,8 +177,8 @@
                     <a class="nav-link" href="#">Alumni</a>
                   </li>
 
-                </ul>       
+                </ul>
             </div>
-        </nav>  
+        </nav>
     </div>
 </div>

@@ -12,23 +12,13 @@
 
 .navbar-light .navbar-brand a {
     font-family: "DIN 1451";
-    color: var(--color-dark);
     margin-left: 20px;
     margin-top: 5px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color: var(--color-light);
-}
-
-#header{
-    background-color: var(--color-navy-blue);
-}
-
-#sticky-nav{
-    background-color: var(--color-navy-blue2);
+#sticky-nav {
     padding-top: 0;
-    padding-bottom: 0; 
+    padding-bottom: 0;
 }
 
 #header ul {
@@ -39,26 +29,13 @@
     padding: 10px;
 }
 
-#header li:hover {
-    background-color: var(--color-medium);
-}
-
-#header h5, h4{
+#header h5, h4 {
     font-family: "DIN 1451";
 }
 
-#header a{
+#header a {
     color: white;
     font-family: "DIN 1451";
-}
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -71,13 +48,14 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .nav-link {
+    color: white !important;
     padding: 15px;
     margin-right: 13px;
 }
@@ -90,22 +68,15 @@
     display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
 
-.dropdown-menu{
+.dropdown-menu {
     margin-top: 0px;
-    background: rgba(35, 113, 167, 0.8);
+    background: var(--color-semi-dark);
     font-size: 0.9rem;
     border-style: none;
     border-radius: 0;
@@ -154,13 +125,13 @@
 }
 
 .dropdown-menu .divider {
-    background-color: #e5e5e5;
+    background-color: var(--color-dark);
     height: 1px;
     margin: 9px 0;
     overflow: hidden;
 }
 
 nav a:hover, .dropdown-submenu:hover, .dropdown-item:hover {
-    background: var(--color-navy-blue);
+    background: var(--color-dark);
     color: white;
 }
