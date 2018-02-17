@@ -7,8 +7,8 @@
 @endsection
 
 @section('content')
-<div class="container">
-    <div id="home-carousel" class="carousel slide" data-ride="carousel">
+
+<div id="home-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#home-carousel" data-slide-to="1"></li>
@@ -51,6 +51,7 @@
         <h3 class="light"><span class="align-middle">Beranda</span></h3>
     </div>
 
+<div class="container">
     <div class="row">
         <div class="col-md-4 left shadow-right">
             <div class="content">
