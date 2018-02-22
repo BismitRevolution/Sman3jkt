@@ -1,9 +1,9 @@
 :root {
-    --color-light: #00B1FF;
-    --color-semi-light: #009EE3;
-    --color-default: #007FC8;
-    --color-semi-dark: #3164AD;
-    --color-dark: #28518C;
+    --color-light: #00B1FF; /*rgba(0, 177, 255, 1)*/
+    --color-semi-light: #009EE3; /*rgba(0, 158, 227, 1)*/
+    --color-default: #007FC8; /*rgba(0, 127, 200, 1)*/
+    --color-semi-dark: #3164AD; /*rgba(49, 100, 173, 1)*/
+    --color-dark: #28518C; /*rgba(40, 81, 140, 1)*/
 }
 
 @font-face {

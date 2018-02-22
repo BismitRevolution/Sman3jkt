@@ -50,5 +50,24 @@
 }
 
 #visi {
-    background-image: url('/img/photos/visi.jpeg');
+    /*background-image: url('/img/photos/visi.jpeg');*/
+    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8)), url('/img/photos/visi.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#visi .heading {
+    font-family: "Roboto Medium";
+    margin-top: 150px;
+}
+
+#visi .heading h1 {
+    font-size: 4.6em;
+}
+
+#visi .paragraf {
+    font-family: "Roboto Regular";
+    text-align: right;
+    font-size: 2em;
+    margin-top: 100px;
 }

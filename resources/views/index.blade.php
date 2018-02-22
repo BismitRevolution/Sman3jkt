@@ -74,12 +74,14 @@
     </div>
 </div>
 
-<div id="visi" class="fullpage dark container-fluid row full-height">
-    <div class="col-md">
-
-    </div>
-    <div class="col-md">
-
+<div id="visi" class="fullpage white container-fluid row full-height">
+    <div class="container">
+        <div class="heading col-sm-12">
+            <h1>Visi</h1>
+        </div>
+        <div class="paragraf col-sm-12">
+            <p>Memajukan siswa di jakarta</p>
+        </div>
     </div>
 </div>
 
