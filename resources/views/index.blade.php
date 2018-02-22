@@ -9,48 +9,82 @@
 @section('content')
 
 <div id="home-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#home-carousel" data-slide-to="1"></li>
-            <li data-target="#home-carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block" src="{{ asset('img/photos/landscape_1.jpg') }}" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Siap berprestasi</h1>
-                    <p>Kami membimbing siswa agar terus berprestasi sesuai potensi yang dimiliki</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block" src="{{ asset('img/photos/landscape_2.jpg') }}" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Semangat berprestasi</h1>
-                    <p>Siswa-siswa berprestasi dari berbagai bidang lomba</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block" src="{{ asset('img/photos/landscape_3.jpg') }}" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Semangat lomba dan berkompetisi</h1>
-                    <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p>
-                </div>
+    <ol class="carousel-indicators">
+        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#home-carousel" data-slide-to="1"></li>
+        <li data-target="#home-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block" src="{{ asset('img/photos/landscape_1.jpg') }}" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Siap berprestasi</h1>
+                <p>Kami membimbing siswa agar terus berprestasi sesuai potensi yang dimiliki</p>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+            <img class="d-block" src="{{ asset('img/photos/landscape_2.jpg') }}" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Semangat berprestasi</h1>
+                <p>Siswa-siswa berprestasi dari berbagai bidang lomba</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block" src="{{ asset('img/photos/landscape_3.jpg') }}" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Semangat lomba dan berkompetisi</h1>
+                <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p>
+            </div>
+        </div>
     </div>
+    <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
-    <div class="divider bg-medium text-center">
-        <h3 class="light"><span class="align-middle">Beranda</span></h3>
+<div id="onboard" class="fullpage bg-dark white container-fluid row">
+    <div class="item col-md">
+        <div class="heading">
+            <h5>Mengapa SMAN 3?</h5>
+        </div>
+        <div class="paragraf">
+            <p>Karena ini sman 3 jakarta</p>
+        </div>
     </div>
+    <div class="item col-md">
+        <div class="heading">
+            <h5>Mengapa SMAN 3?</h5>
+        </div>
+        <div class="paragraf">
+            <p>AsKarena ini sman 3 jakarta</p>
+        </div>
+    </div>
+    <div class="item col-md">
+        <div class="heading">
+            <h5>Mengapa SMAN 3?</h5>
+        </div>
+        <div class="paragraf">
+            <p>Karena ini sman 3 jakarta</p>
+        </div>
+    </div>
+</div>
 
+<div id="visi" class="fullpage dark container-fluid row full-height">
+    <div class="col-md">
+
+    </div>
+    <div class="col-md">
+
+    </div>
+</div>
+
+
+<!-- OLD -->
 <div class="container">
     <div class="row">
         <div class="col-md-4 left shadow-right">

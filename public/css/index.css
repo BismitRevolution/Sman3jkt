@@ -37,45 +37,18 @@
     filter: brightness(75%);
 }
 
-.divider {
-    height: 55px;
-    font-family: "DIN 1451";
-    margin: 10px 0px 10px 0px;
-    padding-top: 10px;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
+#onboard .heading {
+    font-family: "Roboto Medium";
 }
 
-.content {
-    padding: 10px;
-    /*box-shadow: 0 0 9px #999;*/
+#onboard .paragraf {
+    font-family: "Roboto Regular";
 }
 
-.post {
-    font-family: "Open Sans";
+#onboard .item {
+    padding: 20px;
 }
 
-.post .title {
-    padding: 10px;
-}
-
-.post .title h5 {
-    font-weight: bold;
-    line-height: 1.4;
-}
-
-.table-sm {
-    font-size: 0.8em;
-}
-
-.post .img {
-    margin-top: 10px;
-    height: 180px;
-    background: no-repeat center center;
-    background-size: cover;
-}
-
-.post .summary {
-    text-align: justify;
+#visi {
+    background-image: url('/img/photos/visi.jpeg');
 }

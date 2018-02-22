@@ -12,6 +12,11 @@
 }
 
 @font-face {
+    font-family: "Roboto Regular";
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
     font-family: "Open Sans";
     src: url('/fonts/OpenSans-Regular.ttf');
 }
@@ -19,6 +24,10 @@
 @font-face {
     font-family: "DIN 1451";
     src: url('/fonts/din1451alt G.ttf');
+}
+
+.bg-white {
+    background: white !important;
 }
 
 .bg-light {
@@ -39,6 +48,10 @@
 
 .bg-dark {
     background: var(--color-dark) !important;
+}
+
+.white {
+    color: white !important;
 }
 
 .light {
