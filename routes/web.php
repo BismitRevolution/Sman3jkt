@@ -17,7 +17,16 @@
 
 Route::get('/', 'PageController@index')->name('index');
 Route::get('/profile', 'PageController@getProfile');
+Route::get('/ppdb', 'PageController@getPPDB');
+Route::get('/akademik', 'PageController@getAkademik');
+Route::get('/bidang', 'PageController@getBidang');
+Route::get('/berita-acara', 'PageController@getBeritaAcara');
+Route::get('/prestasi', 'PageController@getPrestasi');
+Route::get('/alumni', 'PageController@getAlumni');
 Route::get('/sarana-prasarana', 'PageController@getSarana');
+Route::get('/staf-manajemen', 'PageController@getStafManajemen');
+
+
 
 Auth::routes();
 
