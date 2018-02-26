@@ -77,10 +77,23 @@
 <div id="visi" class="fullpage white container-fluid row full-height">
     <div class="container">
         <div class="heading col-sm-12">
-            <h1>Visi</h1>
+            <h1 class="col-sm-6">Visi</h1>
         </div>
         <div class="paragraf col-sm-12">
-            <p>Memajukan siswa di jakarta</p>
+            <p class="col-sm-6">Memajukan siswa di jakarta</p>
+        </div>
+    </div>
+</div>
+
+<div id="misi" class="fullpage dark container-fluid row full-height half-bg">
+    <div class="container">
+        <div class="heading col-sm-12 row">
+            <div class="col-sm-6"></div>
+            <h1 class="col-sm-6">Misi</h1>
+        </div>
+        <div class="paragraf col-sm-12 row">
+            <div class="col-sm-6"></div>
+            <p class="col-sm-6">Ini misi kita semua SMAN 3 Jakarta</p>
         </div>
     </div>
 </div>
