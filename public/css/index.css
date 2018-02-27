@@ -49,18 +49,56 @@
     padding: 20px;
 }
 
-#visi {
-    /*background-image: url('/img/photos/visi.jpeg');*/
-    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8)), url('/img/photos/visi.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+#parallax-top {
+    margin-top: -10vh;
+    height: 100vh;
+    background: transparent;
 }
 
-#misi {
+.parallax-mirror {
+    z-index:1
+}
+
+#parallax-overlay {
+    margin-top: 11vh;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#parallax-overlay > div {
+    margin-top: 30vh;
+}
+
+#parallax-overlay .paragraf {
+    margin-top: 10vh;
+}
+
+#event {
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+
+#sambutan {
     /*background-image: url('/img/photos/visi.jpeg');*/
-    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8)), url('/img/photos/visi.jpeg');
+    padding-top: 85px;
+    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8));
     background-repeat: no-repeat;
     /*background-size: cover;*/
+}
+
+#sambutan .heading {
+    margin-bottom: 20vh;
+}
+
+#sambutan .paragraf {
+    font-style: italic;
+}
+
+.square-half-height {
+    height: 50vw;
 }
 
 .half-bg {
@@ -71,30 +109,20 @@
     background-size: cover !important;
 }
 
-#visi .container, #misi .container {
-    width: 80%;
-}
-
-#visi .heading, #misi .heading {
+#parallax-overlay .heading, #event .heading, #sambutan .heading {
     font-family: "Roboto Medium";
-    margin-top: 150px;
 }
 
-#visi .heading h1, #misi .heading h1 {
+#parallax-overlay .heading h1, #sambutan .heading h1 {
     font-size: 4.6em;
 }
 
-#visi .paragraf, #misi .paragraf {
+#event .heading h1, #sambutan .heading h1 {
+    font-size: 3em;
+}
+
+#parallax-overlay .paragraf, #sambutan .paragraf, #visi-misi .paragraf {
     font-family: "Roboto Regular";
     font-size: 1.4em;
     margin-top: 100px;
-}
-
-#misi .heading, #misi .paragraf {
-    margin-left: 75px;
-}
-
-.clear-margin {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
 }

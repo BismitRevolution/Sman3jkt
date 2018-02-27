@@ -7,7 +7,6 @@
 @endsection
 
 @section('content')
-
 <div id="home-carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
@@ -74,26 +73,121 @@
     </div>
 </div>
 
-<div id="visi" class="fullpage white container-fluid row full-height">
-    <div class="container">
-        <div class="heading col-sm-12">
-            <h1 class="col-sm-6">Visi</h1>
-        </div>
-        <div class="paragraf col-sm-12">
-            <p class="col-sm-6">Memajukan siswa di jakarta</p>
+<div id="parallax-top" class="parallax-container row align-items-center" data-parallax="scroll" data-src="{{ asset('img/photos/visi.jpeg') }}">
+    <div id="parallax-overlay" class="container-fluid">
+        <div class="container white align-self-center">
+            <div class="heading col-sm-12">
+                <h1 class="col-sm-12 text-center">SARANA & PRASARANA</h1>
+            </div>
+            <div class="paragraf col-sm-12">
+                <p class="col-sm-12 text-center">SMA Negeri 3 Jakarta memiliki berbagai fasilitas untuk menunjang kegiatan pembelajaran siswa</p>
+            </div>
+            <div class="paragraf col-sm-12 text-center">
+                <a href="#" class="btn btn-outline-info">SELENGKAPNYA</a>
+            </div>
         </div>
     </div>
 </div>
 
-<div id="misi" class="fullpage dark container-fluid row full-height half-bg">
-    <div class="container">
-        <div class="heading col-sm-12 row">
-            <div class="col-sm-6"></div>
-            <h1 class="col-sm-6">Misi</h1>
+<div id="event" class="container">
+    <div class="row" style="margin-bottom: 35px;">
+        <div class="heading col-sm-8 semi-dark">
+            <h1 class="col-sm-12">Acara dan Kegiatan</h1>
         </div>
-        <div class="paragraf col-sm-12 row">
-            <div class="col-sm-6"></div>
-            <p class="col-sm-6">Ini misi kita semua SMAN 3 Jakarta</p>
+        <div class="col-sm-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="post shadow-bottom col-xs-12 col-md-6 row">
+            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="col-sm-6 row">
+                <div class="heading col-sm-12">Judul Postingan</div>
+                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="action col-sm-12">
+                    <a href="#" class="btn btn-outline-info">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post shadow-bottom col-md-6 row">
+            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="col-sm-6 row">
+                <div class="heading col-sm-12">Judul Postingan</div>
+                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="action col-sm-12">
+                    <a href="#" class="btn btn-outline-info">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post shadow-bottom col-md-6 row">
+            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="col-sm-6 row">
+                <div class="heading col-sm-12">Judul Postingan</div>
+                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="action col-sm-12">
+                    <a href="#" class="btn btn-outline-info">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post shadow-bottom col-md-6 row">
+            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="col-sm-6 row">
+                <div class="heading col-sm-12">Judul Postingan</div>
+                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="action col-sm-12">
+                    <a href="#" class="btn btn-outline-info">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div id="guru" class="container">
+    <div class="row" style="margin-bottom: 35px;">
+        <div class="heading col-sm-8 semi-dark">
+            <h1 class="col-sm-12">Acara dan Kegiatan</h1>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div> -->
+
+<div id="sambutan" class="container-fluid full-height">
+    <div class="container white align-self-center">
+        <div class="heading col-sm-12">
+            <h1 class="col-sm-12 text-center">SAMBUTAN KEPALA SEKOLAH</h1>
+        </div>
+        <div class="col-sm-12 row">
+            <div class="col-sm-8">
+                <div class="paragraf">Ini isi sambutannya dalam bentuk paragraf. </div>
+            </div>
+            <div class="col-sm-4">
+                <img class="col-sm-12" src="{{ asset('img/photos/visi.jpeg') }}">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="visi-misi" class="fullpage dark container-fluid row align-items-center square-half-height">
+    <div class="col-sm-6">
+        <div class="width-80">
+            <div class="heading col-sm-12 row">
+                <h1 class="col-sm-6">Visi</h1>
+            </div>
+            <div class="paragraf col-sm-12 row">
+                <p class="col-sm-6">Ini visi kita semua SMAN 3 Jakarta</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="width-80">
+            <div class="heading col-sm-12 row">
+                <h1 class="col-sm-6">Misi</h1>
+            </div>
+            <div class="paragraf col-sm-12 row">
+                <p class="col-sm-6">Ini misi kita semua SMAN 3 Jakarta</p>
+            </div>
         </div>
     </div>
 </div>
@@ -268,5 +362,6 @@
 @endsection
 
 @section('extra-js')
+<script type="application/javascript" src="{{ asset('js/jquery.parallax.min.js') }}"></script>
 <script type="application/javascript" src="{{ asset('js/index.js') }}"></script>
 @endsection
