@@ -163,7 +163,7 @@
                 <div class="paragraf">Ini isi sambutannya dalam bentuk paragraf. </div>
             </div>
             <div class="col-md-4">
-                <img class="d-none d-sm-block col-sm-12" src="{{ asset('img/photos/visi.jpeg') }}">
+                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/visi.jpeg') }}">
             </div>
         </div>
     </div>

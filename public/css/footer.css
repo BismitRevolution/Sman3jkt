@@ -7,13 +7,14 @@
 #footer h5 {
     font-family: 'Open Sans';
     font-size: 1.2em;
+    margin-top: 5px;
     font-weight: bold;
     padding-bottom: 8px;
 }
 
 #footer p {
     font-family: 'Open Sans';
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 #footer a, #footer a:hover, #footer a:link {
