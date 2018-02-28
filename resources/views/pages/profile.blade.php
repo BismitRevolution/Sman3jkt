@@ -71,7 +71,7 @@
                 <li>Kota            :   Jakarta Selatan</li>
                 <li>Provinsi        :   DKI Jakarta</li>
             </ul>
-            
+
         </div>
     </div>
 </div>

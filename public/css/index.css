@@ -49,6 +49,10 @@
     padding: 20px;
 }
 
+#onboard .action {
+    margin-bottom: 20px;
+}
+
 #parallax-top {
     margin-top: -10vh;
     height: 100vh;
@@ -60,8 +64,8 @@
 }
 
 #parallax-overlay {
-    margin-top: 11vh;
-    height: 100vh;
+    margin-top: 15vh;
+    height: 97vh;
     background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8));
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,6 +78,17 @@
 
 #parallax-overlay .paragraf {
     margin-top: 10vh;
+}
+
+.btn-outline-info {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-info:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--color-dark);
 }
 
 #event {
@@ -119,6 +134,17 @@
 
 #event .heading h1, #sambutan .heading h1 {
     font-size: 3em;
+}
+
+@media screen and (max-width: 576px) {
+    #parallax-overlay .heading h1, #sambutan .heading h1 {
+        font-size: 2.4em;
+    }
+
+    #event .heading h1, #sambutan .heading h1 {
+        font-size: 1.6em;
+    }
+
 }
 
 #parallax-overlay .paragraf, #sambutan .paragraf, #visi-misi .paragraf {

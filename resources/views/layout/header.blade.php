@@ -5,11 +5,11 @@
                 <div class="container row">
                     <div class="col-lg-8 col-md-12 col-sm-12 row">
                         <div class="col-xs">
-                            <img src="{{ asset('img/logo_transparent.png') }}" width="auto" height="80" class="d-inline-block align-top" alt="logo">
+                            <img src="{{ asset('img/logo_transparent.png') }}" width="auto" height="80" class="align-top d-none d-sm-block" alt="logo">
                         </div>
                         <div class="col">
                             <h4 class="navbar-brand" href="#">SMA NEGERI 3 JAKARTA</h4>
-                            <h5 style="color: white;">"Excellent Carrer Begins with Excellent Education"</h5>
+                            <h5 class="d-none d-sm-block" style="color: white;">"Excellent Carrer Begins with Excellent Education"</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 d-none d-md-none d-lg-block">

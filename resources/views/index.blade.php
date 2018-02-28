@@ -46,29 +46,38 @@
     </a>
 </div>
 
-<div id="onboard" class="fullpage bg-dark white container-fluid row">
+<div id="onboard" class="fullpage bg-dark white container-fluid row text-center">
     <div class="item col-md">
         <div class="heading">
-            <h5>Mengapa SMAN 3?</h5>
+            <h5>SEJARAH SEKOLAH</h5>
         </div>
         <div class="paragraf">
-            <p>Karena ini sman 3 jakarta</p>
+            <p>SMA Negeri 3 Jakarta dahulu bernama SMA Istimewa</p>
+        </div>
+        <div class="action">
+            <a href="#" class="btn btn-outline-info">Selengkapnya</a>
         </div>
     </div>
     <div class="item col-md">
         <div class="heading">
-            <h5>Mengapa SMAN 3?</h5>
+            <h5>AKADEMIK SEKOLAH</h5>
         </div>
         <div class="paragraf">
-            <p>AsKarena ini sman 3 jakarta</p>
+            <p>SMA Negeri 3 Jakarta merupakan salah satu sekolah berakreditasi A</p>
+        </div>
+        <div class="action">
+            <a href="#" class="btn btn-outline-info">Selengkapnya</a>
         </div>
     </div>
     <div class="item col-md">
         <div class="heading">
-            <h5>Mengapa SMAN 3?</h5>
+            <h5>PRESTASI SEKOLAH</h5>
         </div>
         <div class="paragraf">
-            <p>Karena ini sman 3 jakarta</p>
+            <p>SMA Negeri 3 Jakarta memiliki berbagai prestasi di berbagai bidang</p>
+        </div>
+        <div class="action">
+            <a href="#" class="btn btn-outline-info">Selengkapnya</a>
         </div>
     </div>
 </div>
@@ -83,7 +92,7 @@
                 <p class="col-sm-12 text-center">SMA Negeri 3 Jakarta memiliki berbagai fasilitas untuk menunjang kegiatan pembelajaran siswa</p>
             </div>
             <div class="paragraf col-sm-12 text-center">
-                <a href="#" class="btn btn-outline-info">SELENGKAPNYA</a>
+                <a href="#" class="btn btn-outline-info btn-lg">SELENGKAPNYA</a>
             </div>
         </div>
     </div>
@@ -150,11 +159,11 @@
             <h1 class="col-sm-12 text-center">SAMBUTAN KEPALA SEKOLAH</h1>
         </div>
         <div class="col-sm-12 row">
-            <div class="col-sm-8">
+            <div class="col-md-8">
                 <div class="paragraf">Ini isi sambutannya dalam bentuk paragraf. </div>
             </div>
-            <div class="col-sm-4">
-                <img class="col-sm-12" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="col-md-4">
+                <img class="d-none d-sm-block col-sm-12" src="{{ asset('img/photos/visi.jpeg') }}">
             </div>
         </div>
     </div>
