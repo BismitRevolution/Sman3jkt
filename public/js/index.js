@@ -7,12 +7,8 @@ $(document).ready(function () {
     }).carousel('cycle');
 
     if ($(window).width() < 768) {
-        $("#misi").addClass("max-bg");
-        $("#misi").removeClass("half-bg");
-        $("#misi .heading").addClass("clear-margin");
-        $("#misi .paragraf").addClass("clear-margin");
-        $("#misi .heading").addClass("white");
-        $("#misi .paragraf").addClass("white");
+        $("#visi-misi").addClass("max-bg");
+        $("#visi-misi").removeClass("half-bg");
     }
 
 });

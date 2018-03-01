@@ -1,5 +1,4 @@
 #footer {
-    margin-top: 25px;
     margin-bottom: 35px;
     color: white;
     min-height: 200px;
@@ -8,13 +7,19 @@
 #footer h5 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
+    margin-top: 5px;
     font-weight: bold;
     padding-bottom: 8px;
 }
 
 #footer p {
+<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+=======
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+>>>>>>> master
 }
 
 #footer a, #footer a:hover, #footer a:link {

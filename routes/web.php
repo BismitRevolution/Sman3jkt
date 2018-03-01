@@ -16,15 +16,15 @@
 // });
 
 Route::get('/', 'PageController@index')->name('index');
-Route::get('/profile', 'PageController@getProfile');
-Route::get('/ppdb', 'PageController@getPPDB');
-Route::get('/akademik', 'PageController@getAkademik');
-Route::get('/bidang', 'PageController@getBidang');
-Route::get('/berita-acara', 'PageController@getBeritaAcara');
-Route::get('/prestasi', 'PageController@getPrestasi');
-Route::get('/alumni', 'PageController@getAlumni');
-Route::get('/sarana-prasarana', 'PageController@getSarana');
-Route::get('/staf-manajemen', 'PageController@getStafManajemen');
+Route::get('/profile', 'PageController@getProfile')->name('profile');
+Route::get('/ppdb', 'PageController@getPPDB')->name('ppdb');
+Route::get('/akademik', 'PageController@getAkademik')->name('akademik');
+Route::get('/bidang', 'PageController@getBidang')->name('bidang');
+Route::get('/berita-acara', 'PageController@getBeritaAcara')->name('event');
+Route::get('/prestasi', 'PageController@getPrestasi')->name('prestasi');
+Route::get('/alumni', 'PageController@getAlumni')->name('alumni');
+Route::get('/sarana-prasarana', 'PageController@getSarana')->name('sarana-prasarana');
+Route::get('/staf-manajemen', 'PageController@getStafManajemen')->name('staf');
 
 
 
