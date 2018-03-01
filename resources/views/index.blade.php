@@ -12,27 +12,35 @@
         <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#home-carousel" data-slide-to="1"></li>
         <li data-target="#home-carousel" data-slide-to="2"></li>
+        <li data-target="#home-carousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block" src="{{ asset('img/photos/landscape_1.jpg') }}" alt="First slide">
+            <img class="d-block" src="{{ asset('img/photos/home_1.jpg') }}" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Siap berprestasi</h1>
-                <p>Kami membimbing siswa agar terus berprestasi sesuai potensi yang dimiliki</p>
+                <!-- <h1>Siap berprestasi</h1>
+                <p>Kami membimbing siswa agar terus berprestasi sesuai potensi yang dimiliki</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block" src="{{ asset('img/photos/landscape_2.jpg') }}" alt="Second slide">
+            <img class="d-block" src="{{ asset('img/photos/home_2.jpg') }}" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Semangat berprestasi</h1>
-                <p>Siswa-siswa berprestasi dari berbagai bidang lomba</p>
+                <!-- <h1>Semangat berprestasi</h1>
+                <p>Siswa-siswa berprestasi dari berbagai bidang lomba</p> -->
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block" src="{{ asset('img/photos/landscape_3.jpg') }}" alt="Third slide">
+            <img class="d-block" src="{{ asset('img/photos/home_3.jpg') }}" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Semangat lomba dan berkompetisi</h1>
-                <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p>
+                <!-- <h1>Semangat lomba dan berkompetisi</h1>
+                <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p> -->
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block" src="{{ asset('img/photos/home_4.jpg') }}" alt="Fourth slide">
+            <div class="carousel-caption d-none d-md-block">
+                <!-- <h1>Semangat lomba dan berkompetisi</h1>
+                <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p> -->
             </div>
         </div>
     </div>
@@ -91,7 +99,7 @@
             <div class="paragraf col-sm-12">
                 <p class="col-sm-12 text-center">SMA Negeri 3 Jakarta memiliki berbagai fasilitas untuk menunjang kegiatan pembelajaran siswa</p>
             </div>
-            <div class="paragraf col-sm-12 text-center">
+            <div class="action col-sm-12 text-center">
                 <a href="#" class="btn btn-outline-info btn-lg">SELENGKAPNYA</a>
             </div>
         </div>
@@ -160,10 +168,12 @@
         </div>
         <div class="col-sm-12 row">
             <div class="col-md-8">
-                <div class="paragraf">Ini isi sambutannya dalam bentuk paragraf. </div>
+                <div class="paragraf">
+                    <p>Pada kesempatan yang baik dan penuh berkah ini, marilah kita panjatkan puji dan syukur Kehadirat Tuhan Yang Maha Kuasa karena pada hari yang berbahagia ini, telah diresmikannya website sekolah kita. Saya juga mengucapkan terimakasih kepada Bapak/Ibu/Saudara yang telah memberikan dukungannya sehingga website ini bisa terwujud, juga kepada semua pihak yang telah ikut serta dalam proses pembuatan website ini. Dengan adanya website baru ini, diharapkan akan menambah semangat kita untuk lebih dapat meningkatkan kualitas dan semangat belajar kita. Semoga website baru ini dapat dimanfaatkan dengan sebaik-baiknya. </p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="col-md-4 trailer">
+                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/kepala_sekolah.png') }}">
             </div>
         </div>
     </div>

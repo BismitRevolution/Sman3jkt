@@ -76,16 +76,24 @@
     margin-top: 28vh;
 }
 
+#parallax-overlay .heading {
+    margin-top: 10px;
+}
+
 #parallax-overlay .paragraf {
     margin-top: 10vh;
 }
 
-.btn-outline-info {
+#parallax-overlay .action {
+    margin-top: 35px;
+}
+
+#parallax-top .btn-outline-info, #onboard .btn-outline-info {
     color: white;
     border-color: white;
 }
 
-.btn-outline-info:hover {
+#parallax-top .btn-outline-info:hover, #onboard .btn-outline-info:hover {
     background-color: white;
     border-color: white;
     color: var(--color-dark);
@@ -105,11 +113,26 @@
 }
 
 #sambutan .heading {
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 
 #sambutan .paragraf {
     font-style: italic;
+}
+
+#sambutan p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#sambutan .trailer {
+    padding-left: 35px;
+}
+
+#sambutan img {
+    right: 0;
+    max-width: 200px;
+    height: auto;
 }
 
 .square-half-height {
@@ -147,7 +170,7 @@
 
 }
 
-#parallax-overlay .paragraf, #sambutan .paragraf, #visi-misi .paragraf {
+#parallax-overlay .paragraf, #visi-misi .paragraf {
     font-family: "Roboto Regular";
     font-size: 1.4em;
     margin-top: 100px;
