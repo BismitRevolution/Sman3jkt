@@ -1,4 +1,5 @@
 <footer id="footer" class="py-5">
+    
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12">
@@ -48,7 +49,6 @@
                     <p>Subscribe our <a href="https://www.youtube.com/user/sman3jkt" target="_blank">Channel</a></p>
                 </div>
             </div>
-
         </div>
 
         <hr style="border-color:white;">

@@ -26,6 +26,7 @@
 
         <!-- Google Open Sans -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
         <title>SMA Negeri 3 Jakarta | @yield('title')</title>
     </head>
