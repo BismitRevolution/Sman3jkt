@@ -98,7 +98,7 @@
 .dropdown-submenu > a::after {
     border-bottom: 0.3em solid transparent;
     border-left-color: inherit;
-    border-left-style: solid;
+    border-left-style: none;
     border-left-width: 0.3em;
     border-top: 0.3em solid transparent;
     content: " ";

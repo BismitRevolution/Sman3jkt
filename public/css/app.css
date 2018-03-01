@@ -28,8 +28,6 @@
     src: url('/fonts/din1451alt G.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 .bg-white {
     background: white !important;
 }
