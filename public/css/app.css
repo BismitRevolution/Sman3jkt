@@ -1,17 +1,22 @@
 :root {
-    --color-light: #F4F5FA;
-    --color-semi: #CFD5E6;
-    --color-default: #B2B9D2;
-    --color-medium: #8A8C99;
-    --color-dark: #6C6D78;
-    --color-navy-blue: #0F374F;
-    --color-navy-blue2: #2371A7;
+    --color-light: #00B1FF; /*rgba(0, 177, 255, 1)*/
+    --color-semi-light: #009EE3; /*rgba(0, 158, 227, 1)*/
+    --color-default: #007FC8; /*rgba(0, 127, 200, 1)*/
+    --color-semi-dark: #3164AD; /*rgba(49, 100, 173, 1)*/
+    --color-dark: #28518C; /*rgba(40, 81, 140, 1)*/
 }
 
 @font-face {
     font-family: "Roboto Medium";
     src: url('/fonts/Roboto-Medium.ttf');
 }
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+
 
 @font-face {
     font-family: "Open Sans";
@@ -23,44 +28,52 @@
     src: url('/fonts/din1451alt G.ttf');
 }
 
-.bg-light {
-    background: var(--color-light);
+.bg-white {
+    background: white !important;
 }
 
-.bg-semi {
-    background: var(--color-semi);
+.bg-light {
+    background: var(--color-light) !important;
+}
+
+.bg-semi-light {
+    background: var(--color-semi-light) !important;
 }
 
 .bg-default {
-    background: var(--color-default);
+    background: var(--color-default) !important;
 }
 
-.bg-medium {
-    background: var(--color-medium);
+.bg-semi-dark {
+    background: var(--color-semi-dark) !important;
 }
 
 .bg-dark {
-    background: var(--color-dark);
+    background: var(--color-dark) !important;
+}
+
+.white {
+    color: white !important;
 }
 
 .light {
-    color: var(--color-light);
+    color: var(--color-light) !important;
 }
 
-.semi {
-    color: var(--color-semi);
+.semi-light {
+    color: var(--color-semi-light) !important;
 }
 
 .default {
-    color: var(--color-default);
+    color: var(--color-default) !important;
 }
 
-.medium {
-    color: var(--color-medium);
+.semi-dark {
+    color: var(--color-semi-dark) !important;
 }
 
 .dark {
-    color: var(--color-dark);
+    color: var(--color-dark) !important;
 }
 
 .row {

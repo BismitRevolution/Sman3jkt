@@ -37,45 +37,141 @@
     filter: brightness(75%);
 }
 
-.divider {
-    height: 55px;
-    font-family: "DIN 1451";
-    margin: 10px 0px 10px 0px;
-    padding-top: 10px;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
+#onboard .heading {
+    font-family: "Roboto Medium";
 }
 
-.content {
-    padding: 10px;
-    /*box-shadow: 0 0 9px #999;*/
+#onboard .paragraf {
+    font-family: "Roboto Regular";
 }
 
-.post {
-    font-family: "Open Sans";
+#onboard .item {
+    padding: 20px;
 }
 
-.post .title {
-    padding: 10px;
+#onboard .action {
+    margin-bottom: 20px;
 }
 
-.post .title h5 {
-    font-weight: bold;
-    line-height: 1.4;
+#parallax-top {
+    margin-top: -10vh;
+    height: 100vh;
+    background: transparent;
 }
 
-.table-sm {
-    font-size: 0.8em;
+.parallax-mirror {
+    z-index:1
 }
 
-.post .img {
-    margin-top: 10px;
-    height: 180px;
-    background: no-repeat center center;
+#parallax-overlay {
+    margin-top: 15vh;
+    height: 97vh;
+    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8));
+    background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
-.post .summary {
+#parallax-overlay > div {
+    margin-top: 28vh;
+}
+
+#parallax-overlay .heading {
+    margin-top: 10px;
+}
+
+#parallax-overlay .paragraf {
+    margin-top: 10vh;
+}
+
+#parallax-overlay .action {
+    margin-top: 35px;
+}
+
+#parallax-top .btn-outline-info, #onboard .btn-outline-info {
+    color: white;
+    border-color: white;
+}
+
+#parallax-top .btn-outline-info:hover, #onboard .btn-outline-info:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--color-dark);
+}
+
+#event {
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+
+#sambutan {
+    /*background-image: url('/img/photos/visi.jpeg');*/
+    padding-top: 85px;
+    background: linear-gradient(0deg, rgba(0, 177, 255, 0.8), rgba(40, 81, 140, 0.8));
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+#sambutan .heading {
+    margin-bottom: 15vh;
+}
+
+#sambutan .paragraf {
+    font-style: italic;
+}
+
+#sambutan p {
+    font-size: 1.2em;
     text-align: justify;
+}
+
+#sambutan .trailer {
+    padding-left: 35px;
+}
+
+#sambutan img {
+    right: 0;
+    max-width: 200px;
+    height: auto;
+}
+
+.square-half-height {
+    height: 50vw;
+}
+
+.half-bg {
+    background-size: 50vw 100vh !important;
+}
+
+.max-bg {
+    background-size: cover !important;
+}
+
+#parallax-overlay .heading, #event .heading, #sambutan .heading {
+    font-family: "Roboto Medium";
+}
+
+#parallax-overlay .heading h1, #sambutan .heading h1 {
+    font-size: 4.6em;
+}
+
+#event .heading h1, #sambutan .heading h1 {
+    font-size: 3em;
+}
+
+@media screen and (max-width: 576px) {
+    #parallax-overlay .heading h1, #sambutan .heading h1 {
+        font-size: 2.4em;
+    }
+
+    #event .heading h1, #sambutan .heading h1 {
+        font-size: 1.6em;
+    }
+
+}
+
+#parallax-overlay .paragraf, #visi-misi .paragraf {
+    font-family: "Roboto Regular";
+    font-size: 1.4em;
+    margin-top: 100px;
 }

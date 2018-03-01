@@ -3,13 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Description of the page">
-
-        <!-- Apple Devices -->
-        <!-- <link rel="apple-touch-icon" href="/custom-icon.png"> -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
         <!-- Normalize CSS -->
         <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
@@ -31,12 +26,13 @@
 
         <!-- Google Open Sans -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
         <title>SMA Negeri 3 Jakarta | @yield('title')</title>
     </head>
     <body>
         @include('layout.header')
-        <div class="">
+        <div class="" style="overflow-x:hidden;">
         @yield('content')
         </div>
 
@@ -58,7 +54,7 @@
         <script type="application/javascript" src="{{ asset('js/header.js') }}"></script>
         @yield('extra-js')
 
-        <div style="background-color: #0F374F;">
+        <div class="bg-dark">
             <div class="container">
                 @include('layout.footer')
             </div>
