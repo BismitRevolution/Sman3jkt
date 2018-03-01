@@ -94,7 +94,7 @@
     <div id="parallax-overlay" class="container-fluid">
         <div class="container white align-self-center">
             <div class="heading col-sm-12">
-                <h1 class="col-sm-12 text-center">SARANA & PRASARANA</h1>
+                <h1 class="col-sm-12 text-center">SARANA &amp; PRASARANA</h1>
             </div>
             <div class="paragraf col-sm-12">
                 <p class="col-sm-12 text-center">SMA Negeri 3 Jakarta memiliki berbagai fasilitas untuk menunjang kegiatan pembelajaran siswa</p>

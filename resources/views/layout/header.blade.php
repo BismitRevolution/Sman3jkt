@@ -86,7 +86,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <a class="dropdown-item" href="">Guru</a>
+                                <a class="dropdown-item" href="{{ route('guru') }}">Guru</a>
                             </div>
                         </li>
 
@@ -180,7 +180,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="route('alumni')">Alumni</a>
+                            <a class="nav-link" href="{{ route('alumni') }}">Alumni</a>
                         </li>
 
                     </ul>

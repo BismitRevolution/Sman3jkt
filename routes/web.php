@@ -25,6 +25,7 @@ Route::get('/prestasi', 'PageController@getPrestasi')->name('prestasi');
 Route::get('/alumni', 'PageController@getAlumni')->name('alumni');
 Route::get('/sarana-prasarana', 'PageController@getSarana')->name('sarana-prasarana');
 Route::get('/staf-manajemen', 'PageController@getStafManajemen')->name('staf');
+Route::get('/guru', 'PageController@getGuru')->name('guru');
 
 
 
