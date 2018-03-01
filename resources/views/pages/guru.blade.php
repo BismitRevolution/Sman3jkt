@@ -32,28 +32,19 @@
     </div>
 
     <div class="row">
+        @foreach ($teachers as $teacher)
         <div class="post shadow-bottom col-xs-12 col-md-6 col-lg-4 row">
-            <div class="trailer col-6 col-sm-6" style="background-image: url('/img/photos/guru/01.jpg'); background-size: cover; min-height: 200px;"></div>
+            <div class="trailer col-6 col-sm-6" style="background-image: url('/img/photos/guru/{{ $teacher->photo_url }}'); background-size: cover; min-height: 200px;"></div>
             <div class="col-6 col-sm-6 row">
-                <div class="heading col-sm-12" style="margin-top: -15px;">Hj. Yenita, S.Pd, M.Si</div>
+                <div class="heading col-sm-12" style="margin-top: -15px;">{{ $teacher->name }}</div>
+                <div class="paragraf col-sm-12" style="font-size: 0.8em;">{{ $teacher->nip }}</div>
                 <div class="paragraf col-sm-12" style="font-size: 0.8em;">Guru Bahasa Jerman</div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Detail</a>
                 </div>
             </div>
         </div>
-
-        <div class="post shadow-bottom col-xs-12 col-md-6 col-lg-4 row">
-            <div class="trailer col-6 col-sm-6" style="background-image: url('/img/photos/guru/01.jpg'); background-size: cover; min-height: 200px;"></div>
-            <div class="col-6 col-sm-6 row">
-                <div class="heading col-sm-12" style="margin-top: -15px;">Hj. Yenita, S.Pd, M.Si</div>
-                <div class="paragraf col-sm-12" style="font-size: 0.8em;">Guru Bahasa Jerman</div>
-                <div class="action col-sm-12">
-                    <a href="#" class="btn btn-outline-info">Detail</a>
-                </div>
-            </div>
-        </div>
-
+        @endforeach
     </div>
 </div>
 
