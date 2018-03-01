@@ -9,7 +9,7 @@
                     <div class="col-md-9 col-sm-10 col-xs-10">
                        <h5>Facebook</h5>
                     </div>
-                    <p>Like our <a href="#">Facebook page</a></p>
+                    <p>Like our <a href="https://www.facebook.com/sman3jktschid/" target="_blank">Facebook page</a></p>
                 </div>
             </div>
 
@@ -21,7 +21,7 @@
                     <div class="col-md-9 col-sm-10 col-xs-10">
                        <h5>Twitter</h5>
                     </div>
-                    <p>Follow us on <a href="#">Twitter</a></p>
+                    <p>Follow us on <a href="https://twitter.com/sman3jkt" target="_blank">Twitter</a></p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                     <div class="col-md-9 col-sm-10 col-xs-10">
                        <h5>Instagram</h5>
                     </div>
-                    <p>See our story in <a href="#">Instagram</a></p>
+                    <p>See our story in <a href="https://www.instagram.com/mpkosis3teladan/" target="_blank">Instagram</a></p>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
                     <div class="col-md-9 col-sm-10 col-xs-10">
                        <h5>Youtube</h5>
                     </div>
-                    <p>Subscribe our <a href="#">Channel</a></p>
+                    <p>Subscribe our <a href="https://www.youtube.com/user/sman3jkt" target="_blank">Channel</a></p>
                 </div>
             </div>
 

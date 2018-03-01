@@ -5,19 +5,19 @@
                 <div class="container row">
                     <div class="col-lg-8 col-md-12 col-sm-12 row">
                         <div class="col-xs">
-                            <img src="{{ asset('img/logo_transparent.png') }}" width="auto" height="80" class="align-top d-none d-sm-block" alt="logo">
+                            <a href="{{ route('index') }}"><img src="{{ asset('img/logo_transparent.png') }}" width="auto" height="80" class="align-top d-none d-sm-block" alt="logo"></a>
                         </div>
                         <div class="col">
-                            <h4 class="navbar-brand" href="#">SMA NEGERI 3 JAKARTA</h4>
+                            <h4 class="navbar-brand">SMA NEGERI 3 JAKARTA</h4>
                             <h5 class="d-none d-sm-block" style="color: white;">"Excellent Carrer Begins with Excellent Education"</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 d-none d-md-none d-lg-block">
-                        <a href="http://facebook.com" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/sman3jktschid/" target="_blank">Facebook</a>
                         <span style="color: white" class="mx-3">|</span>
-                        <a href="http://twitter.com" target="_blank">Twitter</a>
+                        <a href="https://twitter.com/sman3jkt" target="_blank">Twitter</a>
                         <span style="color: white" class="mx-3">|</span>
-                        <a href="http://instagram.com" target="_blank">Instagram</a>
+                        <a href="https://www.instagram.com/mpkosis3teladan/" target="_blank">Instagram</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="{{ route('index') }}">Home</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -44,8 +44,8 @@
                                 Profil
                             </a>
                             <div class="dropdown-menu">
-                                <div class="dropdown-submenu dropdown-item">Profil
-                                    <!-- <i class="float-right fas fa-angle-right"></i> -->
+                                <div class="dropdown-submenu dropdown-item">
+                                    <a href="{{ route('profile') }}">Profil</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <a class="dropdown-item" href="#">Visi Misi</a>
@@ -61,7 +61,8 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="dropdown-submenu dropdown-item">Sarana dan Prasarana
+                                <div class="dropdown-submenu dropdown-item">
+                                    <a href="{{ route('sarana-prasarana') }}">Sarana dan Prasarana</a>
                                     <!-- <i class="float-right fas fa-angle-right"></i> -->
                                     <ul class="dropdown-menu">
                                         <li>
@@ -75,7 +76,8 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="dropdown-submenu dropdown-item">Manajemen dan Staf
+                                <div class="dropdown-submenu dropdown-item">
+                                    <a href="{{ route('staf') }}">Manajemen dan Staf</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <a class="dropdown-item" href="#">Struktur Organisasi</a>
@@ -90,11 +92,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PPDB</a>
+                            <a class="nav-link" href="{{ route('ppdb') }}">PPDB</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ route('akademik') }}" id="navbardrop" data-toggle="dropdown">
                                 Akademik
                             </a>
                             <div class="dropdown-menu">
@@ -105,7 +107,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ route('bidang') }}" id="navbardrop" data-toggle="dropdown">
                                 Bidang
                             </a>
                             <div class="dropdown-menu">
@@ -163,11 +165,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Berita dan Acara</a>
+                            <a class="nav-link" href="{{ route('event') }}">Berita dan Acara</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ route('prestasi') }}" id="navbardrop" data-toggle="dropdown">
                                 Prestasi
                             </a>
                             <div class="dropdown-menu">
@@ -179,7 +181,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Alumni</a>
+                            <a class="nav-link" href="route('alumni')">Alumni</a>
                         </li>
 
                     </ul>
