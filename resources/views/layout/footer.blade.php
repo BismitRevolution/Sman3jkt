@@ -1,53 +1,18 @@
 <footer id="footer" class="py-5">
+    
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-12  mb-3  pr-3">
-                <div class="row">
-                    <div class="col-md-3 align-middle">
-                        <i class="fab fa-facebook-square fa-4x"></i>
-                    </div>
-                    <div class="col-md-9">
-                       <h5>Facebook</h5>
-                       <p>Like our Facebook page</p>
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-12 mb-3 pr-3">
+                <i class="fab fa-facebook-square fa-4x"></i>
             </div>
 
-            <div class="col-md-3 col-sm-12  mb-3  pr-3">
-                <div class="row">
-                    <div class="col-md-3">
-                        <i class="fab fa-twitter-square fa-4x"></i>
-                    </div>
-                    <div class="col-md-9">
-                       <h5>Twitter</h5>
-                       <p>Follow us on Twitter</p>
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-12  mb-3  pr-3">
+                <i class="fab fa-twitter-square fa-4x"></i>
             </div>
 
-            <div class="col-md-3 col-sm-12  mb-3  pr-3">
-                <div class="row">
-                    <div class="col-md-3">
-                        <i class="fab fa-instagram fa-4x"></i>
-                    </div>
-                    <div class="col-md-9">
-                       <h5>Instagram</h5>
-                       <p>See our story in Instagram</p>
-                    </div>
-                </div>
+            <div class="col-md-4 col-sm-12  mb-3  pr-3">
+                <i class="fab fa-instagram fa-4x"></i>
             </div>
-
-            <div class="col-md-3 col-sm-12  mb-3  pr-3">
-                <div class="row">
-                    <div class="col-md-3">
-                        <i class="fab fa-twitter-square fa-4x"></i>
-                    </div>
-                    <div class="col-md-9">
-                       <h5>Twitter</h5>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
         <hr style="border-color:white;">

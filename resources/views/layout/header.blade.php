@@ -36,11 +36,11 @@
                     <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="{{ url('/') }}">Home</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ url('/') }}" id="navbardrop" data-toggle="dropdown">
                                 Profil
                             </a>
                             <div class="dropdown-menu">
@@ -48,16 +48,16 @@
                                     <!-- <i class="float-right fas fa-angle-right"></i> -->
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="#">Visi Misi</a>
+                                            <a class="dropdown-item" href="{{ url('/profile') }}">Visi Misi</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Sejarah</a>
+                                            <a class="dropdown-item" href="{{ url('/profile') }}">Sejarah</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Lambang SMAN 3 Jakarta</a>
+                                            <a class="dropdown-item" href="{{ url('/profile') }}">Lambang SMAN 3 Jakarta</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Identitas Sekolah</a>
+                                            <a class="dropdown-item" href="{{ url('/profile') }}"">Identitas Sekolah</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -90,7 +90,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PPDB</a>
+                            <a class="nav-link" href="{{ url('/ppdb') }}">PPDB</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -98,9 +98,9 @@
                                 Akademik
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Kalender Akademik</a>
-                                <a class="dropdown-item" href="#">MIPA</a>
-                                <a class="dropdown-item" href="#">IPS</a>
+                                <a class="dropdown-item" href="{{ url('/akademik') }}">Kalender Akademik</a>
+                                <a class="dropdown-item" href="{{ url('/akademik') }}">MIPA</a>
+                                <a class="dropdown-item" href="{{ url('/akademik') }}">IPS</a>
                             </div>
                         </li>
 
