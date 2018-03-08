@@ -37,7 +37,7 @@
             <div class="trailer col-6 col-sm-6" style="background-image: url('/img/photos/guru/{{ $teacher->photo_url }}'); background-size: cover; min-height: 200px;"></div>
             <div class="col-6 col-sm-6 row">
                 <div class="heading col-sm-12" style="margin-top: -15px;">{{ $teacher->name }}</div>
-                <div class="paragraf col-sm-12" style="font-size: 0.8em;">{{ $teacher->nip }}</div>
+                <!-- <div class="paragraf col-sm-12" style="font-size: 0.8em;">{{ $teacher->nip }}</div> -->
                 <div class="paragraf col-sm-12" style="font-size: 0.8em;">Guru Bahasa Jerman</div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Detail</a>
