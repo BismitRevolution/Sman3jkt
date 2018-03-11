@@ -182,6 +182,16 @@
     font-size: 3em;
 }
 
+#event .post .heading a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+#event .post .paragraf p {
+    font-size: 0.9em;
+}
+
 @media screen and (max-width: 576px) {
     #parallax-overlay .heading h1, #sambutan .heading h1 {
         font-size: 2.4em;

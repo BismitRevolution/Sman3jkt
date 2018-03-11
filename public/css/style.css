@@ -16,10 +16,28 @@
 
 .post {
     margin-bottom: 35px;
+    font-family: "Open Sans";
 }
 
 .post div {
-    padding: 15px;
+    padding: 10px;
+}
+
+.post .trailer {
+    background: no-repeat center top;
+    background-size: cover;
+}
+
+.post .heading {
+    margin-top: -20px;
+}
+
+.post .paragraf {
+    margin-top: -10px;
+}
+
+.post .action {
+    margin-top: -20px;
 }
 
 .post .trailer {

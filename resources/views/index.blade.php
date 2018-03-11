@@ -150,10 +150,14 @@
 
     <div class="row">
         <div class="post shadow-bottom col-xs-12 col-md-6 row">
-            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_1.jpg');"></div>
             <div class="col-sm-6 row">
-                <div class="heading col-sm-12">Judul Postingan</div>
-                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="heading col-sm-12">
+                    <a href="#">Juara 1 Economics Research Paper 2016 Tingkat Nasional</a>
+                </div>
+                <div class="paragraf col-sm-12">
+                    <p>Siswa-siswi SMA Negeri 3 Teladan Jakarta kembali mengukir prestasi di ...</p>
+                </div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Selengkapnya</a>
                 </div>
@@ -161,10 +165,13 @@
         </div>
 
         <div class="post shadow-bottom col-md-6 row">
-            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
-            <div class="col-sm-6 row">
-                <div class="heading col-sm-12">Judul Postingan</div>
-                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_2.jpg');"></div>            <div class="col-sm-6 row">
+                <div class="heading col-sm-12">
+                    <a href="#">Tim Basket SMAN 3 Jakarta Mendapat Julukan "Penguasa Ibukota"</a>
+                </div>
+                <div class="paragraf col-sm-12">
+                    <p>Sejarah kembali tercatat pada pergelaran Honda DBL DKI Jakarta Series ...</p>
+                </div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Selengkapnya</a>
                 </div>
@@ -172,10 +179,14 @@
         </div>
 
         <div class="post shadow-bottom col-md-6 row">
-            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_3.jpg');"></div>
             <div class="col-sm-6 row">
-                <div class="heading col-sm-12">Judul Postingan</div>
-                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="heading col-sm-12">
+                    <a href="#">Kunjungan Kepala Sekolah dan Pengawas dari Daerah 3T</a>
+                </div>
+                <div class="paragraf col-sm-12">
+                    <p>Sebanyak 200 kepala sekolah dan pengawas dari daerah 3T (tertinggal ...</p>
+                </div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Selengkapnya</a>
                 </div>
@@ -183,15 +194,20 @@
         </div>
 
         <div class="post shadow-bottom col-md-6 row">
-            <img class="trailer col-sm-6" src="{{ asset('img/photos/visi.jpeg') }}">
+            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_4.jpg');"></div>
             <div class="col-sm-6 row">
-                <div class="heading col-sm-12">Judul Postingan</div>
-                <div class="paragraf col-sm-12">Isi postingan dalam bentuk paragraf</div>
+                <div class="heading col-sm-12">
+                    <a href="#">Juara 1 Debat dan Artikel (KOMBI) Indonesia</a>
+                </div>
+                <div class="paragraf col-sm-12">
+                    <p>SMAN 3 Teladan Jakarta kembali mengukir prestasi, berhasil ...</p>
+                </div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Selengkapnya</a>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
@@ -207,7 +223,7 @@
                 </div>
             </div>
             <div class="col-md-4 trailer">
-                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/kepala_sekolah.png') }}">
+                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/guru/kepala_sekolah.jpg') }}">
             </div>
         </div>
     </div>

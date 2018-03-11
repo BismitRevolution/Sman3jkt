@@ -38,31 +38,13 @@
             <div class="col-6 col-sm-6 row">
                 <div class="heading col-sm-12" style="margin-top: -15px;">{{ $teacher->name }}</div>
                 <!-- <div class="paragraf col-sm-12" style="font-size: 0.8em;">{{ $teacher->nip }}</div> -->
-                <div class="paragraf col-sm-12" style="font-size: 0.8em;">Guru Bahasa Jerman</div>
+                <div class="paragraf col-sm-12" style="font-size: 0.8em;">Guru</div>
                 <div class="action col-sm-12">
                     <a href="#" class="btn btn-outline-info">Detail</a>
                 </div>
             </div>
         </div>
         @endforeach
-    </div>
-</div>
-
-<div id="sambutan" class="container-fluid full-height">
-    <div class="container white align-self-center">
-        <div class="heading col-sm-12">
-            <h1 class="col-sm-12 text-center">SAMBUTAN KEPALA SEKOLAH</h1>
-        </div>
-        <div class="col-sm-12 row">
-            <div class="col-md-8">
-                <div class="paragraf">
-                    <p>Pada kesempatan yang baik dan penuh berkah ini, marilah kita panjatkan puji dan syukur Kehadirat Tuhan Yang Maha Kuasa karena pada hari yang berbahagia ini, telah diresmikannya website sekolah kita. Saya juga mengucapkan terimakasih kepada Bapak/Ibu/Saudara yang telah memberikan dukungannya sehingga website ini bisa terwujud, juga kepada semua pihak yang telah ikut serta dalam proses pembuatan website ini. Dengan adanya website baru ini, diharapkan akan menambah semangat kita untuk lebih dapat meningkatkan kualitas dan semangat belajar kita. Semoga website baru ini dapat dimanfaatkan dengan sebaik-baiknya. </p>
-                </div>
-            </div>
-            <div class="col-md-4 trailer">
-                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/kepala_sekolah.png') }}">
-            </div>
-        </div>
     </div>
 </div>
 @endsection
