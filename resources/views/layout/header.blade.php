@@ -9,7 +9,7 @@
                         </div>
                         <div class="col">
                             <h4 class="navbar-brand">SMA NEGERI 3 JAKARTA</h4>
-                            <h5 class="d-none d-sm-block" style="color: white;">"Jaya-Jayalah SMA 3 untuk Selama-lamanya"</h5>
+                            <h5 class="d-none d-sm-block" style="color: white;">Jaya-Jayalah SMA 3 untuk Selama-lamanya</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 d-none d-md-none d-lg-block">

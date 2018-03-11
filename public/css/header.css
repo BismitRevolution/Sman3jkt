@@ -24,15 +24,13 @@
 }
 
 #header h4 {
-    font-size: 1.75rem;
+    font-family: "Open Sans Bold";
+    font-size: 1.8rem;
     margin: -5px 0px 0px 20px;
 }
 
-#header h5, h4 {
-    font-family: "DIN 1451";
-}
-
 #header h5 {
+    font-family: "DIN 1451";
     margin: -2px 0px 0px 20px;
 }
 
