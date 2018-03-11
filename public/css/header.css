@@ -23,9 +23,17 @@
     padding: 10px;
 }
 
+#header h4 {
+    font-size: 1.75rem;
+    margin: -5px 0px 0px 20px;
+}
+
 #header h5, h4 {
     font-family: "DIN 1451";
-    margin-left: 20px;
+}
+
+#header h5 {
+    margin: -2px 0px 0px 20px;
 }
 
 #header a {
@@ -70,7 +78,7 @@
 
 .dropdown-menu {
     margin-top: 0px;
-    background: var(--color-semi-dark);
+    background: var(--color-dark);
     font-size: 0.9rem;
     border-style: none;
     border-radius: 0;
@@ -125,8 +133,13 @@
     overflow: hidden;
 }
 
-nav a:hover, .dropdown-submenu:hover, .dropdown-item:hover {
+.lvl-1:hover {
     background: var(--color-dark);
+    color: white;
+}
+
+.lvl-2:hover, .lvl-3:hover {
+    background: var(--color-semi-dark);
     color: white;
 }
 
