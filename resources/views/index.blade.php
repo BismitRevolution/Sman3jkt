@@ -94,7 +94,7 @@
             <h5>SEJARAH SEKOLAH</h5>
         </div>
         <div class="paragraf">
-            <p>SMA Negeri 3 Jakarta dahulu bernama SMA Istimewa</p>
+            <p>Latar belakang, sejarah, dan kisah dibalik berdirinya SMA Negeri 3 Jakarta</p>
         </div>
         <div class="action">
             <a href="#" class="btn btn-outline-info">Selengkapnya</a>
@@ -105,7 +105,7 @@
             <h5>AKADEMIK SEKOLAH</h5>
         </div>
         <div class="paragraf">
-            <p>SMA Negeri 3 Jakarta merupakan salah satu sekolah berakreditasi A</p>
+            <p>Sistem akademik dan kurikulum yang diterapkan SMA Negeri 3 Jakarta</p>
         </div>
         <div class="action">
             <a href="#" class="btn btn-outline-info">Selengkapnya</a>
@@ -116,7 +116,7 @@
             <h5>PRESTASI SEKOLAH</h5>
         </div>
         <div class="paragraf">
-            <p>SMA Negeri 3 Jakarta memiliki berbagai prestasi di berbagai bidang</p>
+            <p>Prestasi akademik, non-akademik, dan prestasi lain SMA Negeri 3 Jakarta</p>
         </div>
         <div class="action">
             <a href="#" class="btn btn-outline-info">Selengkapnya</a>
