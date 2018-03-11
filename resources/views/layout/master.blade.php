@@ -54,7 +54,7 @@
         <script type="application/javascript" src="{{ asset('js/what-input.js') }}"></script>
         <!-- <script type="application/javascript" src="{{ asset('js/foundation.min.js') }}"></script> -->
         <!-- Font Awesome -->
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!-- <script type="application/javascript" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/header.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/footer.js') }}"></script>
