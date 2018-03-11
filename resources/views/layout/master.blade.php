@@ -22,6 +22,11 @@
         <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
         <!-- Default Style -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+
         @yield('extra-css')
 
         <!-- Google Open Sans -->

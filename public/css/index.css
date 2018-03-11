@@ -33,18 +33,26 @@
     object-fit: cover;
 }
 
-.carousel-item h1 {
-    font-size: 4em;
-    /*font-weight: bold;*/
-    font-family: "DIN 1451";
-}
-
 .carousel-item p {
     font-size: 1.2em;
 }
 
 .carousel-caption {
     top: 25%;
+}
+
+.carousel-caption h3 {
+    font-family: "Open Sans Bold";
+    font-size: 5em;
+}
+
+/* Animation delays */
+.carousel-caption h3 {
+	animation-delay: 1s;
+}
+
+.carousel-caption button {
+	animation-delay: 1s;
 }
 
 .carousel-item > img {

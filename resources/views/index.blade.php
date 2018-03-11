@@ -7,63 +7,85 @@
 @endsection
 
 @section('content')
-<div id="home-carousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#home-carousel" data-slide-to="1"></li>
-        <li data-target="#home-carousel" data-slide-to="2"></li>
-        <li data-target="#home-carousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="overlay-container">
-                <img class="d-block" src="{{ asset('img/photos/home_1.jpg') }}" alt="First slide">
-                <div class="overlay"></div>
+<div class="">
+    <div class="row">
+        <div class="col">
+            <!-- carousel code -->
+            <div id="home-carousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#home-carousel" data-slide-to="1"></li>
+                    <li data-target="#home-carousel" data-slide-to="2"></li>
+                    <li data-target="#home-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                    <!-- first slide -->
+                    <div class="carousel-item active">
+                        <div class="overlay-container">
+                            <img class="d-block" src="{{ asset('img/photos/home_1.jpg') }}" alt="First slide">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="carousel-caption d-md-block">
+                            <h3 data-animation="animated zoomIn">
+                                TELADAN
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- second slide -->
+                    <div class="carousel-item">
+                        <div class="overlay-container">
+                            <img class="d-block" src="{{ asset('img/photos/home_2.jpg') }}" alt="Second slide">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="carousel-caption d-md-block">
+                            <h3 data-animation="animated zoomIn">
+                                INTELEKTUAL
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- third slide -->
+                    <div class="carousel-item">
+                        <div class="overlay-container">
+                            <img class="d-block" src="{{ asset('img/photos/home_3.jpg') }}" alt="Third slide">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="carousel-caption d-md-block">
+                            <h3 data-animation="animated zoomIn">
+                                ADAB
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- fourth slide -->
+                    <div class="carousel-item">
+                        <div class="overlay-container">
+                            <img class="d-block" src="{{ asset('img/photos/home_4.jpg') }}" alt="Fourth slide">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="carousel-caption d-md-block">
+                            <h3 data-animation="animated zoomIn">
+                                RAMAH ANAK
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- controls -->
+                <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span> -->
+                </a>
+                <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span> -->
+                </a>
             </div>
-            <div class="carousel-caption d-none d-md-block">
-                <!-- <h1>Siap berprestasi</h1>
-                <p>Kami membimbing siswa agar terus berprestasi sesuai potensi yang dimiliki</p> -->
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="overlay-container">
-                <img class="d-block" src="{{ asset('img/photos/home_2.jpg') }}" alt="Second slide">
-                <div class="overlay"></div>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-                <!-- <h1>Semangat berprestasi</h1>
-                <p>Siswa-siswa berprestasi dari berbagai bidang lomba</p> -->
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="overlay-container">
-                <img class="d-block" src="{{ asset('img/photos/home_3.jpg') }}" alt="Third slide">
-                <div class="overlay"></div>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-                <!-- <h1>Semangat lomba dan berkompetisi</h1>
-                <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p> -->
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="overlay-container">
-                <img class="d-block" src="{{ asset('img/photos/home_4.jpg') }}" alt="Fourth slide">
-                <div class="overlay"></div>
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-                <!-- <h1>Semangat lomba dan berkompetisi</h1>
-                <p>Berbagai prestasi berhasil dicetak dalam berbagai lomba yang telah diikuti</p> -->
-            </div>
+
         </div>
     </div>
-    <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
-        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-        <!-- <span class="sr-only">Previous</span> -->
-    </a>
-    <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
-        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-        <!-- <span class="sr-only">Next</span> -->
-    </a>
 </div>
 
 <div id="onboard" class="fullpage bg-dark white container-fluid row text-center">
