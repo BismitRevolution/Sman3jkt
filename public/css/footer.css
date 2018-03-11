@@ -5,7 +5,7 @@
 }
 
 #footer h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Open Sans";
     font-size: 1.2em;
     margin-top: 5px;
     font-weight: bold;
@@ -13,13 +13,8 @@
 }
 
 #footer p {
-<<<<<<< HEAD
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-=======
     font-family: 'Open Sans';
     font-size: 0.8em;
->>>>>>> master
 }
 
 #footer a, #footer a:hover, #footer a:link {
