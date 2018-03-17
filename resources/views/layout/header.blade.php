@@ -29,7 +29,6 @@
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDashboard" aria-controls="navbarDashboard" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
-                    MENU
                 </button>
                 <!-- Toggleable -->
                 <div class="collapse navbar-collapse" id="navbarDashboard">

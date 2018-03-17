@@ -150,7 +150,11 @@
 
     <div class="row">
         <div class="post shadow-bottom col-xs-12 col-md-6 row">
-            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_1.jpg');"></div>
+            <div class="trailer hover-parent col-sm-6">
+                <div class="hover-child" style="background-image: url('img/photos/posts/post_1.jpg');">
+                    <a href="#" class="white">Description</a>
+                </div>
+            </div>
             <div class="col-sm-6 row">
                 <div class="heading col-sm-12">
                     <a href="#">Juara 1 Economics Research Paper 2016 Tingkat Nasional</a>
@@ -165,7 +169,12 @@
         </div>
 
         <div class="post shadow-bottom col-md-6 row">
-            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_2.jpg');"></div>            <div class="col-sm-6 row">
+            <div class="trailer hover-parent col-sm-6">
+                <div class="hover-child" style="background-image: url('img/photos/posts/post_2.jpg');">
+                    <a href="#" class="white">Description</a>
+                </div>
+            </div>
+            <div class="col-sm-6 row">
                 <div class="heading col-sm-12">
                     <a href="#">Tim Basket SMAN 3 Jakarta Mendapat Julukan "Penguasa Ibukota"</a>
                 </div>
@@ -179,7 +188,11 @@
         </div>
 
         <div class="post shadow-bottom col-md-6 row">
-            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_3.jpg');"></div>
+            <div class="trailer hover-parent col-sm-6">
+                <div class="hover-child" style="background-image: url('img/photos/posts/post_3.jpg');">
+                    <a href="#" class="white">Description</a>
+                </div>
+            </div>
             <div class="col-sm-6 row">
                 <div class="heading col-sm-12">
                     <a href="#">Kunjungan Kepala Sekolah dan Pengawas dari Daerah 3T</a>
@@ -194,7 +207,11 @@
         </div>
 
         <div class="post shadow-bottom col-md-6 row">
-            <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_4.jpg');"></div>
+            <div class="trailer hover-parent col-sm-6">
+                <div class="hover-child" style="background-image: url('img/photos/posts/post_4.jpg');">
+                    <a href="#" class="white">Description</a>
+                </div>
+            </div>
             <div class="col-sm-6 row">
                 <div class="heading col-sm-12">
                     <a href="#">Juara 1 Debat dan Artikel (KOMBI) Indonesia</a>
@@ -219,7 +236,18 @@
         <div class="col-sm-12 row">
             <div class="col-md-8">
                 <div class="paragraf">
-                    <p>Pada kesempatan yang baik dan penuh berkah ini, marilah kita panjatkan puji dan syukur Kehadirat Tuhan Yang Maha Kuasa karena pada hari yang berbahagia ini, telah diresmikannya website sekolah kita. Saya juga mengucapkan terimakasih kepada Bapak/Ibu/Saudara yang telah memberikan dukungannya sehingga website ini bisa terwujud, juga kepada semua pihak yang telah ikut serta dalam proses pembuatan website ini. Dengan adanya website baru ini, diharapkan akan menambah semangat kita untuk lebih dapat meningkatkan kualitas dan semangat belajar kita. Semoga website baru ini dapat dimanfaatkan dengan sebaik-baiknya. </p>
+                    <p>Assalamualaikum wr wb, salam sejahtera untuk kita semua dan Salam Teladan..!</p>
+                    <p>Selamat datang di website SMA 3 Teladan Jakarta.</p>
+                    <p class="italic">"Siapa yang menguasai Informasi, maka dia akan menguasai dunia"</p>
+                    <p>Pasti sudah banyak yang pernah mendengar kutipan di atas. Ya, di jaman sekarang teknologi informasi demikian canggih dan segala informasi bisa segera diakses secara cepat. Mungkin tidak benar-benar menguasai "dunia", namun kita tetap harus mengikuti jaman, bahwa teknologi informasi haruslah kita kuasai sebagai salah satu faktor pendukung untuk sukses.</p>
+                    <p>Menurut siaran pers yang dilempar ke publik oleh menkoinfo RI, Indonesia adalah pengguna Internet terbesar ke 6 setelah China, USA, India, Brazil dan Jepang. Diperkirakan jumlah pengguna internet di Indonesia akan menggeser kedudukan Jepang di urutan ke-5, yang memang  pertumbuhan jumlah pengguna internetnya lebih lambat.</p>
+                    <p>Tahun 2014 pengguna internet (netter) di Indonesia mencapai 87,7 juta orang. Sekarang diperkirakan sudah mencapai 112 juta pengguna Internet di Indonesia.</p>
+                    <p>Dengan kenyataan tersebut, saya menyambut baik gagasan mengaktifkan kembali Website SMAN 3 Jakarta dan dikelola secara profesional serta harus  terus di update , karena dari sinilah kita bisa menginformasikan kepada "dunia luar" tentang prestasi SMA 3 Jakarta, bidang akademis dan non akademis, serta berbagai kegiatan kreatif siswa yang banyak dilakukan di SMA 3 Teladan ini.</p>
+                    <p>Komunikasi dengan alumni, orang tua dan masyarakat luar pun bisa terus terjaga melalui Website ini.</p>
+                    <p>Jangan lupa, meskipun berbagai kemudahan teknologi informasi bisa kita dapatkan hanya dengan mengklik satu jari, namun biasakan untuk selalu cek-ricek, dan berhati-hati menyebarkan informasi yang tidak akurat, hoax, maupun yang akan memancing suasana kurang baik.</p>
+                    <p>Demikian dari saya, sekali lagi selamat berselancar melihat kegiatan keluarga besar Teladan di Website SMAN 3 Jakarta dan ayo kita berbagi informasi positif sebanyak-banyaknya.</p>
+                    <p>Wassalamualaikum wr. wb.</p>
+                    <p>Ratna Budiarti</p>
                 </div>
             </div>
             <div class="col-md-4 trailer">

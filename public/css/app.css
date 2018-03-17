@@ -82,6 +82,14 @@
     color: var(--color-dark) !important;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .row {
     margin-left: 0px;
     margin-right: 0px;

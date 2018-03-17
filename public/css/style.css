@@ -24,11 +24,6 @@
     padding: 10px;
 }
 
-.post .trailer {
-    background: no-repeat center top;
-    background-size: cover;
-}
-
 .post .heading {
     margin-top: -20px;
 }
@@ -43,4 +38,57 @@
 
 .post .trailer {
     max-height: 200px;
+}
+
+.hover-parent {
+    min-height: 200px;
+    padding: 0px !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.hover-child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.hover-parent a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    padding: 85px;
+    position: absolute;
+    display: none;
+}
+
+.hover-parent:hover .hover-child, .hover-parent:focus .hover-child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hover-parent:hover .hover-child:before, .hover-parent:focus .hover-child:before {
+    display: block;
+}
+
+.hover-parent:hover a, .hover-parent:focus a {
+    display: block;
+}
+
+.hover-child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
 }
