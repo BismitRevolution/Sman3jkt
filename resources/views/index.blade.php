@@ -228,33 +228,33 @@
     </div>
 </div>
 
-<div id="sambutan" class="container-fluid full-height">
-    <div class="container white align-self-center">
-        <div class="heading col-sm-12">
-            <h1 class="col-sm-12 text-center">SAMBUTAN KEPALA SEKOLAH</h1>
-        </div>
-        <div class="col-sm-12 row">
-            <div class="col-md-8">
-                <div class="paragraf">
-                    <p>Assalamualaikum wr wb, salam sejahtera untuk kita semua dan Salam Teladan..!</p>
-                    <p>Selamat datang di website SMA 3 Teladan Jakarta.</p>
-                    <p class="italic">"Siapa yang menguasai Informasi, maka dia akan menguasai dunia"</p>
-                    <p>Pasti sudah banyak yang pernah mendengar kutipan di atas. Ya, di jaman sekarang teknologi informasi demikian canggih dan segala informasi bisa segera diakses secara cepat. Mungkin tidak benar-benar menguasai "dunia", namun kita tetap harus mengikuti jaman, bahwa teknologi informasi haruslah kita kuasai sebagai salah satu faktor pendukung untuk sukses.</p>
-                    <p>Menurut siaran pers yang dilempar ke publik oleh menkoinfo RI, Indonesia adalah pengguna Internet terbesar ke 6 setelah China, USA, India, Brazil dan Jepang. Diperkirakan jumlah pengguna internet di Indonesia akan menggeser kedudukan Jepang di urutan ke-5, yang memang  pertumbuhan jumlah pengguna internetnya lebih lambat.</p>
-                    <p>Tahun 2014 pengguna internet (netter) di Indonesia mencapai 87,7 juta orang. Sekarang diperkirakan sudah mencapai 112 juta pengguna Internet di Indonesia.</p>
-                    <p>Dengan kenyataan tersebut, saya menyambut baik gagasan mengaktifkan kembali Website SMAN 3 Jakarta dan dikelola secara profesional serta harus  terus di update , karena dari sinilah kita bisa menginformasikan kepada "dunia luar" tentang prestasi SMA 3 Jakarta, bidang akademis dan non akademis, serta berbagai kegiatan kreatif siswa yang banyak dilakukan di SMA 3 Teladan ini.</p>
-                    <p>Komunikasi dengan alumni, orang tua dan masyarakat luar pun bisa terus terjaga melalui Website ini.</p>
-                    <p>Jangan lupa, meskipun berbagai kemudahan teknologi informasi bisa kita dapatkan hanya dengan mengklik satu jari, namun biasakan untuk selalu cek-ricek, dan berhati-hati menyebarkan informasi yang tidak akurat, hoax, maupun yang akan memancing suasana kurang baik.</p>
-                    <p>Demikian dari saya, sekali lagi selamat berselancar melihat kegiatan keluarga besar Teladan di Website SMAN 3 Jakarta dan ayo kita berbagi informasi positif sebanyak-banyaknya.</p>
-                    <p>Wassalamualaikum wr. wb.</p>
-                    <p>Ratna Budiarti</p>
+<div id="kepsek" class="overlay-container">
+    <div id="sambutan" class="container-fluid full-height" style="background-image: url('img/photos/guru/kepala_sekolah_fixed.jpeg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat;">
+        <div class="container white align-self-center">
+            <div class="col-sm-12 row">
+                <div class="col-md-4 trailer">
+                    <img class="d-none d-md-block col-sm-12" src="">
                 </div>
-            </div>
-            <div class="col-md-4 trailer">
-                <img class="d-none d-md-block col-sm-12" src="{{ asset('img/photos/guru/kepala_sekolah.jpg') }}">
+                <div class="col-md-8">
+                    <div class="paragraf">
+                        <p>Assalamualaikum wr wb, salam sejahtera untuk kita semua dan Salam Teladan..!</p>
+                        <p>Selamat datang di website SMA 3 Teladan Jakarta.</p>
+                        <p class="italic">"Siapa yang menguasai Informasi, maka dia akan menguasai dunia"</p>
+                        <p>Pasti sudah banyak yang pernah mendengar kutipan di atas. Ya, di jaman sekarang teknologi informasi demikian canggih dan segala informasi bisa segera diakses secara cepat. Mungkin tidak benar-benar menguasai "dunia", namun kita tetap harus mengikuti jaman, bahwa teknologi informasi haruslah kita kuasai sebagai salah satu faktor pendukung untuk sukses.</p>
+                        <p>Menurut siaran pers yang dilempar ke publik oleh menkoinfo RI, Indonesia adalah pengguna Internet terbesar ke 6 setelah China, USA, India, Brazil dan Jepang. Diperkirakan jumlah pengguna internet di Indonesia akan menggeser kedudukan Jepang di urutan ke-5, yang memang  pertumbuhan jumlah pengguna internetnya lebih lambat.</p>
+                        <p>Tahun 2014 pengguna internet (netter) di Indonesia mencapai 87,7 juta orang. Sekarang diperkirakan sudah mencapai 112 juta pengguna Internet di Indonesia.</p>
+                        <p>Dengan kenyataan tersebut, saya menyambut baik gagasan mengaktifkan kembali Website SMAN 3 Jakarta dan dikelola secara profesional serta harus  terus di update , karena dari sinilah kita bisa menginformasikan kepada "dunia luar" tentang prestasi SMA 3 Jakarta, bidang akademis dan non akademis, serta berbagai kegiatan kreatif siswa yang banyak dilakukan di SMA 3 Teladan ini.</p>
+                        <p>Komunikasi dengan alumni, orang tua dan masyarakat luar pun bisa terus terjaga melalui Website ini.</p>
+                        <p>Jangan lupa, meskipun berbagai kemudahan teknologi informasi bisa kita dapatkan hanya dengan mengklik satu jari, namun biasakan untuk selalu cek-ricek, dan berhati-hati menyebarkan informasi yang tidak akurat, hoax, maupun yang akan memancing suasana kurang baik.</p>
+                        <p>Demikian dari saya, sekali lagi selamat berselancar melihat kegiatan keluarga besar Teladan di Website SMAN 3 Jakarta dan ayo kita berbagi informasi positif sebanyak-banyaknya.</p>
+                        <p>Wassalamualaikum wr. wb.</p>
+                        <p>Ratna Budiarti</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- <div class="overlay"></div> -->
 </div>
 @endsection
 

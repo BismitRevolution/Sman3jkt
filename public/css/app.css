@@ -2,11 +2,11 @@
     --color-light: #00B1FF; /*rgba(0, 177, 255, 1)*/
     --color-semi-light: #009EE3; /*rgba(0, 158, 227, 1)*/
     --color-default: #007FC8; /*rgba(0, 127, 200, 1)*/
-    /*--color-semi-dark: #3164AD; /*rgba(49, 100, 173, 1)*/
+    --color-semi-dark: #3164AD; /*rgba(49, 100, 173, 1)
     /*--color-semi-dark: #FF015D; /*rgba(255, 1, 93, 1)*/
-    --color-semi-dark: maroon; /*rgba(128, 0, 0, 1) */
-    /*--color-dark: #28518C; /*rgba(40, 81, 140, 1)*/
-    --color-dark: #B20040; /*rgba(178, 0, 64, 1)*/
+    /*--color-semi-dark: maroon; /*rgba(128, 0, 0, 1) */
+    --color-dark: #28518C; /*rgba(40, 81, 140, 1)
+    /*--color-dark: #B20040; /*rgba(178, 0, 64, 1)*/
 }
 
 @font-face {
