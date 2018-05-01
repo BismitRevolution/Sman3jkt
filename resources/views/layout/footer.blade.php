@@ -91,7 +91,9 @@
         </div>
         <div class="row pt-4">
             <div class="col-12 text-center">
-                <iframe id="BVPhxdK5qm"   width="200"  height="130"  scrolling="no" src="https://www.embeddedanalytics.com/reports/displayreport?reportcode=BVPhxdK5qm&chckcode=ga2pF3dyZbsUDIBc63ldzC"   title="Reporting Tool for Google Analytics and Google Adwords."></iframe>    
+                <iframe id="BVPhxdK5qm"   width="200"  height="130"  scrolling="no" src="https://www.embeddedanalytics.com/reports/displayreport?reportcode=BVPhxdK5qm&chckcode=ga2pF3dyZbsUDIBc63ldzC"   title="Reporting Tool for Google Analytics and Google Adwords."></iframe>
+                <br>
+                <iframe id="OwM7rSQLPP"   width="300"  height="150"  scrolling="no" src="https://www.embeddedanalytics.com/reports/displayreport?reportcode=OwM7rSQLPP&chckcode=ga2pF3dyZbsUDIBc63ldzC"   title="Reporting Tool for Google Analytics and Google Adwords."></iframe>
             </div>
         </div>
     </div>
