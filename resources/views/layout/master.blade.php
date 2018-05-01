@@ -58,16 +58,15 @@
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/header.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/footer.js') }}"></script>
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118439967-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-        <!-- Global site tag (gtag.js) - Google Analytics --> 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115923014-1"></script> 
-        <script> 
-            window.dataLayer = window.dataLayer || []; 
-            function gtag(){dataLayer.push(arguments);} 
-            gtag('js', new Date()); 
-
-            gtag('config', 'UA-115923014-1'); 
-         </script>
+          gtag('config', 'UA-118439967-1');
+        </script>
 
         @yield('extra-js')
 
