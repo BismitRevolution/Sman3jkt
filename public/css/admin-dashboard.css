@@ -1,0 +1,74 @@
+#main {
+    background-color: var(--color-light);
+    min-height: 100vh;
+}
+
+#panel {
+    padding: 45px;
+    /*background-color: var(--color-dark);*/
+}
+
+#panel ul {
+    float: left;
+    display: block;
+}
+
+#panel li a {
+    text-decoration: none;
+    color: white;
+}
+
+#panel li a:hover {
+    font-weight: bold;
+}
+
+.list-group .active {
+    background-color: var(--color-dark);
+    border: var(--color-dark);
+}
+
+#content {
+    padding: 45px;
+}
+
+#content .title {
+    padding-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 25px;
+}
+
+.jumbotron button {
+    background-color: var(--color-dark);
+    color: white;
+}
+
+.jumbotron button:hover {
+    background-color: white;
+    color: var(--color-dark);
+}
+
+.form-template {
+	margin-top: 20px;
+	font-family: "HKGrotesk-Regular";
+	padding-top: 20px;
+}
+
+.form-setting {
+	padding: 20px 0px;
+}
+
+.table-setting {
+	margin: 40px 0;
+}
+
+.btn-wrapped{
+	padding-right: 20px;
+}
+
+.btn-setting {
+	padding: 20px 10px;
+	margin: 10px 0px;
+}

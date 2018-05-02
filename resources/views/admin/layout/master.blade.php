@@ -6,9 +6,9 @@
         <!-- Reset CSS -->
         <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
         <!-- Bootstrap -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/bootstrap-v4.0.min.css') }}"> -->
+        <link rel="stylesheet" href="{{ asset('css/bootstrap-v4.0.min.css') }}">
         <!-- Foundation ZURB -->
-        <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}"> -->
         <!-- Lightbox -->
         <!-- <link rel="stylesheet" href="{{ asset('css/lightbox.min.css') }}"> -->
         <!-- Basic Style -->
@@ -24,10 +24,10 @@
         <!-- Google Open Sans -->
         <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
 
-        <title>Pratama Jaya | @yield('title')</title>
+        <title>@yield('title')</title>
     </head>
-    <body>
-        @include('layout.header')
+    <body style="height: 100%;">
+        @include('admin.layout.header')
         <div class="">
         @yield('content')
         </div>
@@ -36,20 +36,22 @@
         <script type="application/javascript" src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
         <!-- <script type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
         <!-- PopperJS -->
-        <!-- <script type="application/javascript" src="https://unpkg.com/popper.js"></script> -->
+        <script type="application/javascript" src="https://unpkg.com/popper.js"></script>
         <!-- TooltipJS -->
         <!-- <script type="application/javascript" src="https://unpkg.com/tooltip.js"></script> -->
         <!-- Bootstrap -->
-        <!-- <script type="application/javascript" src="{{ asset('js/bootstrap-v4.0.min.js') }}"></script> -->
+        <script type="application/javascript" src="{{ asset('js/bootstrap-v4.0.min.js') }}"></script>
         <!-- Foundation ZURB -->
         <script type="application/javascript" src="{{ asset('js/what-input.js') }}"></script>
-        <script type="application/javascript" src="{{ asset('js/foundation.min.js') }}"></script>
+        <!-- <script type="application/javascript" src="{{ asset('js/foundation.min.js') }}"></script> -->
+        <!-- Font Awesome -->
+        <script type="application/javascript" src="{{ asset('js/fontawesome-all.min.js') }}"></script>
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/admin-header.js') }}"></script>
         <!-- Admin -->
         <script type="application/javascript" src="{{ asset('js/admin.js') }}"></script>
         @yield('extra-js')
 
-        @include('layout.footer')
+        @include('admin.layout.footer')
     </body>
 </html>

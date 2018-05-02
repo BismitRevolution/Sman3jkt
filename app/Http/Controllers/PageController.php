@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\Teacher;
 
 class PageController extends Controller
@@ -37,7 +38,8 @@ class PageController extends Controller
     }
 
     public function getBeritaAcara() {
-        return view('pages.berita-acara');
+        $posts = DB::table('posts')->orderBy('created_at', 'desc')->get();
+        return view('pages.berita-acara')->with('posts', $posts);
     }
 
     public function getPrestasi() {
