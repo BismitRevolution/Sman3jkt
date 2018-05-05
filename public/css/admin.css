@@ -1,0 +1,12 @@
+:root {
+    --color-light: #E8EBF7;
+}
+
+#admin-panel > div {
+    margin: 0 auto;
+    display: block;
+}
+
+#admin-panel .btn {
+    border-radius: 0px;
+}

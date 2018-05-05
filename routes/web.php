@@ -26,7 +26,7 @@ Route::get('/alumni', 'PageController@getAlumni')->name('alumni');
 Route::get('/sarana-prasarana', 'PageController@getSarana')->name('sarana-prasarana');
 Route::get('/staf-manajemen', 'PageController@getStafManajemen')->name('staf');
 Route::get('/guru', 'PageController@getGuru')->name('guru');
-
+Route::get('/ga-retrieve', 'GoogleAnalyticsController@getPageViews')->name('get.pageViews');
 
 
 Auth::routes();
@@ -35,7 +35,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
-    Route::post('/login', 'AdminAuth\LoginController@login');
+    Route::post('/login', 'AdminAuth\LoginController@login')->name('login-post');
     Route::post('/logout', 'AdminAuth\LoginController@logout')->name('logout');
 
     Route::get('/register', 'AdminAuth\RegisterController@showRegistrationForm')->name('register');
@@ -45,4 +45,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::post('/password/reset', 'AdminAuth\ResetPasswordController@reset')->name('password.email');
     Route::get('/password/reset', 'AdminAuth\ForgotPasswordController@showLinkRequestForm')->name('password.reset');
     Route::get('/password/reset/{token}', 'AdminAuth\ResetPasswordController@showResetForm');
+
+    Route::resource('/dashboard/posts', 'PostController');
 });

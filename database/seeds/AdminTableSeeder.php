@@ -19,5 +19,13 @@ class AdminTableSeeder extends Seeder
             // 'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             // 'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
         ]);
+
+        DB::table('admins')->insert([
+            'name' => 'Admin SMAN 3 Jakarta',
+            'email' => 'admin@sman3jkt.sch.id',
+            'password' => bcrypt('admin')
+            // 'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+            // 'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        ]);
     }
 }
