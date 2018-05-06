@@ -42,6 +42,11 @@ class PageController extends Controller
         return view('pages.berita-acara')->with('posts', $posts);
     }
 
+    public function getPost(Request $request) {
+        $post = DB::table('posts')->where('post_id', $request->post_id)->first();
+        return view('pages.show-post')->with('post', $post);
+    }
+
     public function getPrestasi() {
         return view('pages.prestasi');
     }
