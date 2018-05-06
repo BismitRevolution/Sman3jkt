@@ -26,16 +26,16 @@ Route::get('/alumni', 'PageController@getAlumni')->name('alumni');
 Route::get('/sarana-prasarana', 'PageController@getSarana')->name('sarana-prasarana');
 Route::get('/staf-manajemen', 'PageController@getStafManajemen')->name('staf');
 Route::get('/guru', 'PageController@getGuru')->name('guru');
+
 Route::get('/ga-retrieve', 'GoogleAnalyticsController@getPageViews')->name('get.pageViews');
-
-
+Route::get('/post', 'PageController@getPost')->name('show-post');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/login', 'AdminAuth\LoginController@showLoginForm')->name('login');
-    Route::post('/login', 'AdminAuth\LoginController@login')->name('login-post');
+    Route::post('/login', 'AdminAuth\LoginController@login');
     Route::post('/logout', 'AdminAuth\LoginController@logout')->name('logout');
 
     Route::get('/register', 'AdminAuth\RegisterController@showRegistrationForm')->name('register');

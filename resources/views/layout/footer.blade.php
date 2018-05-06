@@ -89,6 +89,7 @@
                     </p>
                 </div>
             </div>
+            @if(Request::is('/'))
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                 </div>
@@ -101,6 +102,7 @@
                     </div>
                 </div>
             </div>
+            @endif
         </div>
     </footer>
 

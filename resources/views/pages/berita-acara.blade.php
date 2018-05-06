@@ -30,7 +30,11 @@
                 <p>{{ $post->content }}</p>
             </div>
             <div class="action col-sm-12">
-                <a href="#" class="btn btn-outline-info">Selengkapnya</a>
+                <form method="get" action="{{ route('show-post') }}">
+                    {{ csrf_field() }}
+                    <input name="post_id" value="{{ $post->post_id }}" type="hidden">
+                    <button class="btn btn-outline-primary" type="submit">Selengkapnya</button>
+                </form>
             </div>
         </div>
     </div>
