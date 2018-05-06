@@ -89,6 +89,15 @@
                 </p>
             </div>
         </div>
+        <div class="row">
+            <div class="analytics">
+                <div class="page-view">
+                    <div class="col-6 text-center">
+                        <span>Page View :</span> <span> {{ $pageViews[0]['pageViews'] }} </span>    
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 
