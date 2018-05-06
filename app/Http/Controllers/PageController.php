@@ -5,11 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Teacher;
+use Analytics;
+use Spatie\Analytics\Period;
 
 class PageController extends Controller
 {
     public function index() {
-        return view('index');
+        $pageViews = Analytics::fetchVisitorsAndPageViews(Period::days(7));
+        return view('index')->with('pageViews', $pageViews);
     }
 
     public function getProfile() {
