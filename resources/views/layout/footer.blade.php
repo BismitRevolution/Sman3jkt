@@ -95,6 +95,9 @@
                     <div class="col-6 text-center">
                         <span>Page View :</span> <span> {{ $pageViews[0]['pageViews'] }} </span>    
                     </div>
+                     <div class="col-6 text-center">
+                        <span>Active users :</span> <span> {{ $activeUsers }} </span>    
+                    </div>
                 </div>
             </div>
         </div>

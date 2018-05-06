@@ -12,7 +12,11 @@ class PageController extends Controller
 {
     public function index() {
         $pageViews = Analytics::fetchVisitorsAndPageViews(Period::days(7));
-        return view('index')->with('pageViews', $pageViews);
+        $activeUsers = Analytics::getAnalyticsService()
+                        ->data_realtime->get("ga:".env('ANALYTICS_VIEW_ID'), 'rt:activeVisitors')
+                        ->totalsForAllResults['rt:activeVisitors'];
+                        
+        return view('index')->with(['pageViews' => $pageViews, 'activeUsers' => $activeUsers]);
     }
 
     public function getProfile() {
