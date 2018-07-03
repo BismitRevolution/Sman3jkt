@@ -148,6 +148,10 @@
         <div class="col-sm-4"></div>
     </div>
 
+    <div class="text-center" style="margin-bottom: 50px; background-color: black;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2sdk_1ylQcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
     <div class="row">
         <div class="post shadow-bottom col-xs-12 col-md-6 row">
             <div class="trailer col-sm-6" style="background-image: url('img/photos/posts/post_1.jpg');"></div>
