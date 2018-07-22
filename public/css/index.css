@@ -193,6 +193,24 @@
     font-size: 0.9em;
 }
 
+#gallery {
+    padding-top: 35px;
+    /* padding-bottom: 35px; */
+}
+
+#gallery .thumbnails {
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+#gallery .thumbnails:hover {
+    /* background-color: red; */
+    transform: scale(1.2);
+    transition: all .25s;
+}
+
 @media screen and (max-width: 576px) {
     #parallax-overlay .heading h1, #sambutan .heading h1 {
         font-size: 2.4em;
@@ -202,6 +220,9 @@
         font-size: 1.6em;
     }
 
+    .youtube {
+        width: 345px;
+    }
 }
 
 #parallax-overlay .paragraf, #visi-misi .paragraf {

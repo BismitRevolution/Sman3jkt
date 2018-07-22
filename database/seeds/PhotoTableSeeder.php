@@ -13,9 +13,8 @@ class PhotoTableSeeder extends Seeder
     public function run()
     {
         DB::table('photos')->insert([
-            'name' => 'Name',
-            'category' => 1,
             'url' => 'photo.png',
+            'album_id' => 1,
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
         ]);

@@ -29,6 +29,7 @@ Route::get('/guru', 'PageController@getGuru')->name('guru');
 
 Route::get('/ga-retrieve', 'GoogleAnalyticsController@getPageViews')->name('get.pageViews');
 Route::get('/post', 'PageController@getPost')->name('show-post');
+Route::get('/album', 'PageController@getAlbum')->name('show-album');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -47,4 +48,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
     Route::get('/password/reset/{token}', 'AdminAuth\ResetPasswordController@showResetForm');
 
     Route::resource('/dashboard/posts', 'PostController');
+    Route::resource('/dashboard/albums', 'AlbumController');
+
+});
+
+
+Route::get('/testing', function () {
+    $photos = collect([1,2,3,4,5,6,7,8,9]);
+	return view('testing')->with('photos', $photos);
 });

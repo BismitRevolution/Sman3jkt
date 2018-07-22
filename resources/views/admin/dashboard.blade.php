@@ -22,6 +22,14 @@
                     <form method="get" action="{{ route('admin.posts.index') }}">
                         <button type="submit" class="list-group-item list-group-item-action">View Posts</button>
                     </form>
+
+                    <form method="get" action="{{ route('admin.albums.create') }}">
+                        <button type="submit" class="list-group-item list-group-item-action">Create Album</button>
+                    </form>
+                    <form method="get" action="{{ route('admin.albums.index') }}">
+                        <button type="submit" class="list-group-item list-group-item-action">View Albums</button>
+                    </form>
+
                 </div>
             </div>
             <div id="content" class="col-8">

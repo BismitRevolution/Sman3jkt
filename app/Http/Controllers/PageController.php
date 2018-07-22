@@ -15,8 +15,15 @@ class PageController extends Controller
         $activeUsers = Analytics::getAnalyticsService()
                         ->data_realtime->get("ga:".env('ANALYTICS_VIEW_ID'), 'rt:activeVisitors')
                         ->totalsForAllResults['rt:activeVisitors'];
-                        
-        return view('index')->with(['pageViews' => $pageViews, 'activeUsers' => $activeUsers]);
+
+        $albums = DB::table('albums')->orderBy('album_id')->get();
+
+        foreach ($albums as $album) {
+            $album->photos = DB::table('photos')
+                                ->where('photos.album_id', '=', $album->album_id)
+                                ->first();
+        }
+        return view('index')->with(['pageViews' => $pageViews, 'activeUsers' => $activeUsers, 'albums' => $albums]);
     }
 
     public function getProfile() {
@@ -52,6 +59,19 @@ class PageController extends Controller
     public function getPost(Request $request) {
         $post = DB::table('posts')->where('post_id', $request->post_id)->first();
         return view('pages.show-post')->with('post', $post);
+    }
+
+    public function getAlbum(Request $request) {
+        $albums = DB::table('albums')->orderBy('album_id')->get();
+
+        foreach ($albums as $album) {
+            $album->photos = DB::table('photos')
+                                ->where('photos.album_id', '=', $album->album_id)
+                                // ->limit(4)
+                                ->get();
+        }
+
+        return view('pages.show-album')->with('albums', $albums);
     }
 
     public function getPrestasi() {

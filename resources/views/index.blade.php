@@ -149,7 +149,7 @@
     </div>
 
     <div class="text-center" style="margin-bottom: 50px; background-color: black;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2sdk_1ylQcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/2sdk_1ylQcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
     <div class="row">
@@ -212,6 +212,22 @@
             </div>
         </div>
 
+    </div>
+</div>
+
+<div id="gallery" class="bg-dark white">
+    <div class="container">
+        <div class="heading">
+            <h1>Gallery</h1>
+        </div>
+        <div class="row" style="padding-top: 35px; padding-bottom: 35px;">
+            @foreach ($albums as $album)
+            <img class="col-sm-4" src="{{ $album->photos->photo_path }}" alt="" style="height: 200px;">
+            @endforeach
+        </div>
+        <div class="text-center" style="width: 100%; padding-bottom: 35px;">
+            <a href="{{ route('show-album') }}" class="btn btn-outline-info btn-lg white" style="border-color: white;">See more</a>
+        </div>
     </div>
 </div>
 

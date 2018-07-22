@@ -12,7 +12,7 @@
         <!-- Foundation ZURB -->
         <!-- <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}"> -->
         <!-- Lightbox -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/lightbox.min.css') }}"> -->
+        <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
         <!-- Basic Style -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <!-- Navbar Style -->
@@ -41,6 +41,7 @@
     <script type="application/javascript" src="https://unpkg.com/popper.js"></script>
     <!-- TooltipJS -->
     <script type="application/javascript" src="https://unpkg.com/tooltip.js"></script>
+    <script type="application/javascript" src="{{ asset('js/lightbox.js') }}"></script>
     <!-- Bootstrap -->
     <script type="application/javascript" src="{{ asset('js/bootstrap-v4.0.min.js') }}"></script>
     <!-- Foundation ZURB -->
@@ -61,7 +62,7 @@
       gtag('config', 'UA-118439967-1');
     </script>
     @yield('extra-js')
-    
+
     <div class="bg-dark">
         <div class="container">
             @include('layout.footer')
